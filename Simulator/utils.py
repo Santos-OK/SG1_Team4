@@ -5,33 +5,7 @@ This file contains utility functions used troughout the simulator.
 """
 
 import random
-import math
 import config
-
-
-def calculate_solar_generation(time_of_day, cloud_coverage):
-    """
-    Calculate the solar generation based on the time of day and clouds couverage 
-    
-    Explanation:
-    ------------
-   Use a sinusoidal function to simulate that the sun generates more energy
-   at noon (12:00) and none during the night.
-    """
-    # Using the time of day callculates the sun angle
-    sun_angle = time_of_day * (math.pi / 12)
-    
-    # Based on the sun angle calcukates the generation
-    base_generation = config.SOLAR_PEAK_POWER * math.sin(sun_angle)
-    
-    # Avoid negative values in the generation
-    if base_generation < 0:
-        base_generation = 0.0
-    
-    # Reduce by clouds couverage
-    generation_with_clouds = base_generation * (1 - cloud_coverage)
-    
-    return max(0, generation_with_clouds)  # Cant be negative
 
 
 def get_daily_cloud_coverage(season):
@@ -79,24 +53,6 @@ def calculate_load_demand(time_of_day):
         load += peak_load
     
     return load
-
-
-def check_inverter_failure():
-    """
-    Determines if the inverter fails at this moment
-    
-    """
-    # Failure probabilities
-    if random.random() < config.INVERTER_FAILURE_RATE:
-
-        # Random failure duration
-        duration = random.randint(
-            config.INVERTER_MIN_FAILURE_HOURS,
-            config.INVERTER_MAX_FAILURE_HOURS
-        )
-        return True, duration
-    
-    return False, 0
 
 
 def format_time(hours):
