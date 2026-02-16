@@ -85,5 +85,5 @@ SEASON = 'spring'            # Season: 'spring', 'summer', 'fall', 'winter'
 # LOGGING & OUTPUT SETTINGS
 # ============================================================================
 LOG_INTERVAL_HOURS = 1       # How often to save data
-OUTPUT_FILE = 'results_charge_priority.csv'  # Output File
+OUTPUT_FILE = 'failure_test.csv'  # Output File
 VERBOSE = False               # Show messages in Console During the Simulation
