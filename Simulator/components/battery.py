@@ -47,9 +47,16 @@ class Battery:
         """
         return (self.current_soc / 100.0) * self.capacity
     
-    def charge(self, energy_kwh):
+    def charge(self, energy_kwh, time_step_hours=1.0):
         """
-        Try to charge the battery with a certain amount of enerfy
+        Try to charge the battery with a certain amount of energy
+        
+        Parameters:
+        -----------
+        energy_kwh : float
+            Amount of energy available to charge (kWh)
+        time_step_hours : float
+            Duration of time step (hours) - for compatibility with simulation
         
         Explanation:
         ------------
@@ -77,11 +84,16 @@ class Battery:
         
         return actual_charged
     
-    def discharge(self, energy_needed_kwh):
+    def discharge(self, energy_needed_kwh, time_step_hours=1.0):
         """
         Try drawing power from the battery.
         
-        
+        Parameters:
+        -----------
+        energy_needed_kwh : float
+            Amount of energy needed (kWh)
+        time_step_hours : float
+            Duration of time step (hours) - for compatibility with simulation
         
         Explanation:
         ------------

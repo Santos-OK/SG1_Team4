@@ -1,5 +1,5 @@
 """
-load.py - Load component = electricity consumption of the house.
+Load component = electricity consumption of the house.
 """
 
 import config
@@ -7,15 +7,6 @@ import utils
 
 
 class Load:
-    """
-    
-    load?
-    -----------------
-    - Electricity consumption of all appliances
-    - Varies depending on the time of day (higher consumption in the afternoon)
-    - Random components (human behavior)
-    - Includes base load (always on) and peak loads
-    """
     
     def __init__(self):
         

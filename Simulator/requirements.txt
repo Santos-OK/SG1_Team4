@@ -1,6 +1,0 @@
-# Required libraries for simulation running
-
-simpy>=4.0.0        # Biblioteca principal para simulación de eventos discretos
-numpy>=1.21.0       # Para cálculos matemáticos y arrays
-pandas>=1.3.0       # Para manejo de datos y exportación
-matplotlib>=3.4.0   # Para generar gráficas (opcional, útil para debug)

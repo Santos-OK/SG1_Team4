@@ -1,5 +1,5 @@
 """
-grid.py - Electrical Grid Component
+ Electrical Grid Component
 
 """
 
@@ -7,15 +7,6 @@ import config
 
 
 class Grid:
-    """
-    
-    Electrical grid?
-    -----------------
-    Supplies energy when we don't have enough (imports)
-    Receives energy when we have a surplus (exports)
-    Has limits on how much we can export
-    Records costs and revenues
-    """
     
     def __init__(self):
      
