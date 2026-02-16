@@ -48,7 +48,7 @@ GRID_EXPORT_REVENUE = 0.90   # Energy Export Revenue (cents/kWh)
 # Energetic Management Strategy
 # ============================================================================
 # Options: 'LOAD_PRIORITY', 'CHARGE_PRIORITY', 'PRODUCE_PRIORITY'
-ENERGY_MANAGEMENT_STRATEGY = 'LOAD_PRIORITY'
+ENERGY_MANAGEMENT_STRATEGY = 'CHARGE_PRIORITY'
 
 # LOAD_PRIORITY: House First → Battery → Grid
 # CHARGE_PRIORITY: Battery first → House → Grid  
@@ -85,5 +85,5 @@ SEASON = 'spring'            # Season: 'spring', 'summer', 'fall', 'winter'
 # LOGGING & OUTPUT SETTINGS
 # ============================================================================
 LOG_INTERVAL_HOURS = 1       # How often to save data
-OUTPUT_FILE = 'simulation_results.csv'  # Output File
-VERBOSE = True               # Show messages in Console During the Simulation
+OUTPUT_FILE = 'results_charge_priority.csv'  # Output File
+VERBOSE = False               # Show messages in Console During the Simulation
