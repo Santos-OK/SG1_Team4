@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GreenGrid — Neighborhood Energy Intelligence</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ── Reset & Tokens ─────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:         #0a0f0d;
+    --surface:    #111a15;
+    --surface2:   #162019;
+    --border:     #1e3024;
+    --green:      #3dffa0;
+    --green-dim:  #1a7a4a;
+    --amber:      #ffb830;
+    --amber-dim:  #7a5500;
+    --red:        #ff5252;
+    --blue:       #52d4ff;
+    --purple:     #c084fc;
+    --text:       #e8f5ec;
+    --muted:      #5a7a62;
+    --font-serif: 'DM Serif Display', Georgia, serif;
+    --font-body:  'Space Grotesk', sans-serif;
+    --font-mono:  'DM Mono', monospace;
+  }
+
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  /* ── Scrollbar ───────────────────────────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--green-dim); border-radius: 3px; }
+
+  /* ── Hero ────────────────────────────────────────────────────── */
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 30%, rgba(61,255,160,0.08) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 40% at 20% 80%, rgba(255,184,48,0.05) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .hero-badge {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--green);
+    text-transform: uppercase;
+    border: 1px solid var(--green-dim);
+    padding: 6px 16px;
+    border-radius: 100px;
+    margin-bottom: 32px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.2s forwards;
+  }
+  .hero h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(3rem, 8vw, 7rem);
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.4s forwards;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--green);
+  }
+  .hero-sub {
+    max-width: 600px;
+    margin: 24px auto 48px;
+    font-size: 1.1rem;
+    color: var(--muted);
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.6s forwards;
+  }
+  .hero-stats {
+    display: flex;
+    gap: 48px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease 0.8s forwards;
+  }
+  .hero-stat { text-align: center; }
+  .hero-stat .val {
+    font-family: var(--font-mono);
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--green);
+    display: block;
+  }
+  .hero-stat .lbl {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .scroll-hint {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    opacity: 0;
+    animation: fadeUp 1s ease 1.2s forwards, bounce 2s ease 2s infinite;
+  }
+
+  /* ── Layout ──────────────────────────────────────────────────── */
+  .section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 24px;
+  }
+  .section-header {
+    margin-bottom: 48px;
+  }
+  .section-num {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    color: var(--green);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.1;
+  }
+  .section-title em { font-style: italic; color: var(--green); }
+  .section-desc {
+    margin-top: 12px;
+    color: var(--muted);
+    max-width: 560px;
+    font-weight: 300;
+  }
+
+  /* ── Cards ───────────────────────────────────────────────────── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+  }
+  .card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--green-dim), transparent);
+  }
+  .card-title {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 20px;
+  }
+
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .col-span-2 { grid-column: span 2; }
+
+  /* ── KPI strip ───────────────────────────────────────────────── */
+  .kpi-strip {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+  }
+  .kpi-icon {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  .kpi-val {
+    font-family: var(--font-mono);
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--green);
+    line-height: 1;
+  }
+  .kpi-lbl {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .kpi-sub {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--amber);
+    margin-top: 6px;
+  }
+
+  /* ── Divider ─────────────────────────────────────────────────── */
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 0 24px;
+  }
+
+  /* ── Pitch block ─────────────────────────────────────────────── */
+  .pitch-block {
+    background: linear-gradient(135deg, rgba(61,255,160,0.04) 0%, rgba(255,184,48,0.02) 100%);
+    border: 1px solid var(--green-dim);
+    border-radius: 16px;
+    padding: 48px;
+    margin-bottom: 48px;
+    position: relative;
+    overflow: hidden;
+  }
+  .pitch-block::after {
+    content: '"';
+    position: absolute;
+    right: 32px;
+    top: -20px;
+    font-family: var(--font-serif);
+    font-size: 12rem;
+    color: rgba(61,255,160,0.06);
+    line-height: 1;
+  }
+  .pitch-text {
+    font-family: var(--font-serif);
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+    line-height: 1.5;
+    max-width: 800px;
+  }
+  .pitch-text strong { color: var(--green); font-style: italic; }
+
+  /* ── Filter bar ──────────────────────────────────────────────── */
+  .filter-bar {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+  .filter-btn {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border: 1px solid var(--border);
+    border-radius: 100px;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .filter-btn:hover, .filter-btn.active {
+    border-color: var(--green);
+    color: var(--green);
+    background: rgba(61,255,160,0.06);
+  }
+
+  /* ── SVG chart defaults ──────────────────────────────────────── */
+  svg text { font-family: var(--font-mono); fill: var(--muted); }
+  .axis path, .axis line { stroke: var(--border); }
+  .axis text { font-size: 10px; fill: var(--muted); }
+  .grid-line { stroke: var(--border); stroke-dasharray: 3,3; opacity: 0.5; }
+  .tooltip {
+    position: absolute;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--text);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+    z-index: 100;
+    white-space: nowrap;
+    line-height: 1.8;
+  }
+  .tooltip strong { color: var(--green); }
+
+  /* ── Legend ──────────────────────────────────────────────────── */
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 12px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .legend-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .legend-line {
+    width: 20px; height: 2px;
+    flex-shrink: 0;
+  }
+
+  /* ── Insight callout ─────────────────────────────────────────── */
+  .insight {
+    background: rgba(255,184,48,0.05);
+    border-left: 3px solid var(--amber);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 16px;
+    font-size: 12px;
+    color: var(--text);
+    margin-top: 16px;
+  }
+  .insight strong { color: var(--amber); }
+
+  /* ── Bar chart labels ────────────────────────────────────────── */
+  .bar-label {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    fill: var(--muted);
+  }
+
+  /* ── Wealth badge ────────────────────────────────────────────── */
+  .wealth-low    { color: #52d4ff; }
+  .wealth-middle { color: var(--green); }
+  .wealth-high   { color: var(--amber); }
+  .wealth-luxury { color: var(--purple); }
+
+  /* ── Footer ──────────────────────────────────────────────────── */
+  .footer {
+    text-align: center;
+    padding: 48px 24px;
+    border-top: 1px solid var(--border);
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+  }
+  .footer span { color: var(--green); }
+
+  /* ── Animations ──────────────────────────────────────────────── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50%       { transform: translateX(-50%) translateY(6px); }
+  }
+  .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .fade-in.visible { opacity: 1; transform: none; }
+
+  /* ── Responsive ──────────────────────────────────────────────── */
+  @media (max-width: 768px) {
+    .grid-2, .grid-3, .grid-4, .kpi-strip { grid-template-columns: 1fr; }
+    .col-span-2 { grid-column: span 1; }
+    .hero-stats { gap: 24px; }
+    .pitch-block { padding: 28px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── HERO ─────────────────────────────────────────────────────── -->
+<section class="hero">
+  <div class="hero-badge">SG1 Team 4 · COM 139 · Spring 2026</div>
+  <h1>The Solar <em>ROI</em><br>Your Neighborhood<br>Is Missing</h1>
+  <p class="hero-sub">
+    A 30-day digital twin simulation of 6 households proves that
+    residential solar with smart storage pays for itself — if you know which homes to target first.
+  </p>
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <span class="val" id="stat-households">6</span>
+      <span class="lbl">Households</span>
+    </div>
+    <div class="hero-stat">
+      <span class="val" id="stat-days">30</span>
+      <span class="lbl">Days Simulated</span>
+    </div>
+    <div class="hero-stat">
+      <span class="val" id="stat-kwh">—</span>
+      <span class="lbl">kWh Generated</span>
+    </div>
+    <div class="hero-stat">
+      <span class="val" id="stat-savings">—</span>
+      <span class="lbl">Net Savings</span>
+    </div>
+  </div>
+  <div class="scroll-hint">↓ scroll to explore</div>
+</section>
+
+<hr class="divider">
+
+<!-- ── PITCH ────────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="pitch-block">
+    <p class="pitch-text">
+      A studio apartment with solar panels is <strong>90% energy self-sufficient</strong>
+      in spring. A luxury home without battery storage pays over
+      <strong>$1,180 to the grid</strong> in a single month.
+      The data is clear: the right solar-plus-battery combo doesn't just save money —
+      <strong>it flips the economics entirely.</strong>
+    </p>
+  </div>
+</section>
+
+<!-- ── KPIs ──────────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">01 — Overview</div>
+    <h2 class="section-title">The <em>Numbers</em> That Matter</h2>
+    <p class="section-desc">Aggregated across all 6 households over 30 simulated spring days.</p>
+  </div>
+  <div class="kpi-strip">
+    <div class="kpi">
+      <div class="kpi-icon">☀️</div>
+      <div class="kpi-val" id="kpi-solar">—</div>
+      <div class="kpi-lbl">Total Solar Generated</div>
+      <div class="kpi-sub" id="kpi-solar-sub">loading...</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-icon">🏠</div>
+      <div class="kpi-val" id="kpi-load">—</div>
+      <div class="kpi-lbl">Total Consumed</div>
+      <div class="kpi-sub" id="kpi-load-sub">loading...</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-icon">📤</div>
+      <div class="kpi-val" id="kpi-export">—</div>
+      <div class="kpi-lbl">Exported to Grid</div>
+      <div class="kpi-sub" id="kpi-export-sub">loading...</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-icon">💰</div>
+      <div class="kpi-val" id="kpi-netcost">—</div>
+      <div class="kpi-lbl">Net Grid Cost (all households)</div>
+      <div class="kpi-sub" id="kpi-netcost-sub">loading...</div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── DUCK CURVE ───────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">02 — The Duck Curve</div>
+    <h2 class="section-title">When Solar <em>Disrupts</em> the Grid</h2>
+    <p class="section-desc">
+      Average hourly load vs solar generation across the neighborhood. The "duck belly"
+      shows midday solar surplus; the "neck" shows the dangerous evening ramp.
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-title">Neighborhood Duck Curve — avg kW by hour of day (30-day mean)</div>
+    <div id="duck-curve-chart"></div>
+    <div class="legend">
+      <div class="legend-item"><div class="legend-line" style="background:var(--amber)"></div> Total Load</div>
+      <div class="legend-item"><div class="legend-line" style="background:var(--green)"></div> Solar Generation</div>
+      <div class="legend-item"><div class="legend-line" style="background:var(--blue); border-top: 2px dashed var(--blue); height:0"></div> Net Load (Duck)</div>
+    </div>
+    <div class="insight">
+      <strong>Key insight:</strong> Between 2 AM and 10 AM (by the sinusoidal model), solar generation
+      <em>exceeds</em> total neighborhood load — creating an export surplus. At 7 PM it collapses to zero
+      while load spikes 4× from appliances. This is exactly what battery storage is designed to bridge.
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── BY TYPE ───────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">03 — Household Comparison</div>
+    <h2 class="section-title">Not All Homes Are <em>Equal</em></h2>
+    <p class="section-desc">
+      Self-sufficiency rate and total grid dependence grouped by household type.
+      Solar ROI is highest where consumption is lowest relative to generation.
+    </p>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Self-Sufficiency % by Household Type</div>
+      <div id="self-suf-chart"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Solar vs Load vs Import — by Type (kWh)</div>
+      <div id="by-type-bar-chart"></div>
+      <div class="insight">
+        <strong>Studio apartments</strong> are the sweet spot: nearly 90% self-sufficient with the
+        same 5 kW solar panel. Large families consume 4.7× more energy but generate the same solar.
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── BY WEALTH ─────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">04 — The Wealth Effect</div>
+    <h2 class="section-title">Richer Homes, <em>Bigger</em> Grid Bills</h2>
+    <p class="section-desc">
+      Higher income means larger homes, more devices — and ironically, lower solar self-sufficiency.
+      The data reveals an unexpected inversion: the ones who can most afford solar need it most.
+    </p>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <div class="card-title">Grid Import by Wealth Level (kWh / 30 days)</div>
+      <div id="wealth-import-chart"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Self-Sufficiency % by Wealth Level</div>
+      <div id="wealth-suf-chart"></div>
+      <div class="insight">
+        <strong>Luxury homes:</strong> only 17.8% self-sufficient — paying 10× more to the grid
+        than low-income studios. Adding battery storage to luxury homes is the single
+        highest-ROI intervention in this neighborhood.
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── BATTERY SOC ───────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">05 — Battery Intelligence</div>
+    <h2 class="section-title">Storage is the <em>Real</em> Product</h2>
+    <p class="section-desc">
+      Battery State of Charge over 30 days. Filter by household to see how different
+      types use storage. Studios keep batteries consistently high; large families drain them nightly.
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-title">Battery SOC (%) over time — select household</div>
+    <div class="filter-bar" id="soc-filters"></div>
+    <div id="battery-soc-chart"></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── GRID FLOW ─────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">06 — Grid Flow</div>
+    <h2 class="section-title">When We <em>Give</em> & When We <em>Take</em></h2>
+    <p class="section-desc">
+      Daily net grid flow for the neighborhood. Green bars = energy exported (earning revenue).
+      Red bars = energy imported (paying cost). The goal: maximize green.
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-title">Daily Net Grid Flow (kWh) — export positive, import negative</div>
+    <div id="grid-flow-chart"></div>
+    <div class="insight">
+      <strong>Filter by week</strong> to see how cloud coverage affects the balance.
+      Cloudy days flip the neighborhood from net-exporter to net-importer within hours.
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── HEATMAP ───────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">07 — Load Heatmap</div>
+    <h2 class="section-title">The <em>Heartbeat</em> of Consumption</h2>
+    <p class="section-desc">
+      Average load (kW) by hour of day for each household type. Darker = higher consumption.
+      The evening peak (18–21h) shows where battery storage creates the most value.
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-title">Avg Load Intensity — Hour × Household Type</div>
+    <div id="heatmap-chart"></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── DAILY TRENDS ──────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">08 — Daily Trends</div>
+    <h2 class="section-title">30 Days of <em>Evidence</em></h2>
+    <p class="section-desc">
+      Daily solar generation and load per household. Filter by type or wealth level
+      to compare performance across the simulation period.
+    </p>
+  </div>
+  <div class="card">
+    <div class="card-title">Daily Solar Generation vs Load (kWh) — filter by household type</div>
+    <div class="filter-bar" id="daily-filters"></div>
+    <div id="daily-chart"></div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ── STRATEGY ──────────────────────────────────────────────────── -->
+<section class="section fade-in">
+  <div class="section-header">
+    <div class="section-num">09 — Strategy Pitch</div>
+    <h2 class="section-title">The <em>Investment</em> Case</h2>
+    <p class="section-desc">
+      Three energy management strategies were simulated. The data tells a clear story
+      for where to focus capital deployment.
+    </p>
+  </div>
+  <div class="grid-3">
+    <div class="card" style="border-color: var(--green-dim);">
+      <div class="card-title">💡 Key Finding #1</div>
+      <div style="font-family: var(--font-serif); font-size: 1.4rem; margin: 12px 0; color: var(--green);">Studios = Best ROI</div>
+      <p style="color: var(--muted); font-size: 13px;">Low-income studios achieve 95% self-sufficiency. They earn revenue by exporting excess solar to the grid — becoming micro power plants.</p>
+    </div>
+    <div class="card" style="border-color: var(--amber-dim);">
+      <div class="card-title">⚡ Key Finding #2</div>
+      <div style="font-family: var(--font-serif); font-size: 1.4rem; margin: 12px 0; color: var(--amber);">Battery = Multiplier</div>
+      <p style="color: var(--muted); font-size: 13px;">Households with a Tesla Powerwall bridge the 6-hour solar gap. Without it, luxury homes spend 10× more on grid imports per month.</p>
+    </div>
+    <div class="card" style="border-color: #4a2a6a;">
+      <div class="card-title">🎯 Key Finding #3</div>
+      <div style="font-family: var(--font-serif); font-size: 1.4rem; margin: 12px 0; color: var(--purple);">Target Large Families</div>
+      <p style="color: var(--muted); font-size: 13px;">Large families have the highest absolute savings potential. A solar+battery package could cut their grid bill by 60–70%, saving $800+/month.</p>
+    </div>
+  </div>
+
+  <div style="margin-top: 24px;" class="card">
+    <div class="card-title">Household Net Grid Cost (30 days) — lower is better</div>
+    <div id="net-cost-chart"></div>
+    <div class="insight">
+      <strong>The verdict:</strong> Studios with solar actually <em>earn money</em> (negative cost = revenue).
+      Luxury homes without battery storage hemorrhage cash to the utility. The solution is not "more solar" —
+      it's <strong>smarter storage paired with the right household profile.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ─────────────────────────────────────────────────────── -->
+<footer class="footer">
+  <p>GreenGrid Dashboard · <span>SG1_Team4</span> · COM 139 Simulation & Visualization · Universidad Panamericana · Spring 2026</p>
+  <p style="margin-top:6px;">Karla Avila · Ana Pérez · Omar Santos</p>
+</footer>
+
+<!-- ── TOOLTIP ────────────────────────────────────────────────────── -->
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════════════════
+// CONFIG — relative path to data folder
+// ═══════════════════════════════════════════════════════════════════
+const DATA_PATH = '../data/';
+
+// Color maps
+const TYPE_COLOR = {
+  studio:       '#3dffa0',
+  small_family: '#ffb830',
+  large_family: '#ff5252',
+};
+const WEALTH_COLOR = {
+  low:    '#52d4ff',
+  middle: '#3dffa0',
+  high:   '#ffb830',
+  luxury: '#c084fc',
+};
+const HH_COLOR = {
+  studio_low:         '#52d4ff',
+  studio_middle:      '#3dffa0',
+  small_family_middle:'#ffb830',
+  small_family_high:  '#ff9500',
+  large_family_middle:'#ff5252',
+  large_family_luxury:'#c084fc',
+};
+
+const tooltip = d3.select('#tooltip');
+
+function showTip(html, event) {
+  tooltip.html(html).style('opacity', 1)
+    .style('left', (event.pageX + 16) + 'px')
+    .style('top',  (event.pageY - 10) + 'px');
+}
+function hideTip() { tooltip.style('opacity', 0); }
+
+// ═══════════════════════════════════════════════════════════════════
+// LOAD ALL DATA
+// ═══════════════════════════════════════════════════════════════════
+Promise.all([
+  d3.json(DATA_PATH + 'duck_curve.json'),
+  d3.json(DATA_PATH + 'by_type.json'),
+  d3.json(DATA_PATH + 'by_wealth.json'),
+  d3.json(DATA_PATH + 'battery_soc.json'),
+  d3.json(DATA_PATH + 'grid_flow.json'),
+  d3.json(DATA_PATH + 'hourly_heatmap.json'),
+  d3.json(DATA_PATH + 'daily_totals.json'),
+  d3.json(DATA_PATH + 'household_summaries.json'),
+  d3.json(DATA_PATH + 'neighborhood_series.json'),
+]).then(([
+  duckData, byType, byWealth, batterySOC, gridFlow,
+  heatmapData, dailyTotals, summaries, neighborhoodSeries
+]) => {
+
+  // ── Hero KPIs ────────────────────────────────────────────── //
+  const totalSolar  = d3.sum(summaries, d => d.solar_total_generated_kwh || 0);
+  const totalLoad   = d3.sum(summaries, d => d.load_total_consumed_kwh   || 0);
+  const totalExport = d3.sum(summaries, d => d.grid_total_exported_kwh   || 0);
+  const netCost     = d3.sum(summaries, d => d.grid_net_cost             || 0);
+
+  document.getElementById('stat-kwh').textContent     = (totalSolar/1000).toFixed(1) + 'K';
+  document.getElementById('stat-savings').textContent = '$' + Math.abs(netCost).toFixed(0);
+  document.getElementById('kpi-solar').textContent    = totalSolar.toFixed(0) + ' kWh';
+  document.getElementById('kpi-load').textContent     = totalLoad.toFixed(0)  + ' kWh';
+  document.getElementById('kpi-export').textContent   = totalExport.toFixed(0) + ' kWh';
+  document.getElementById('kpi-netcost').textContent  = '$' + netCost.toFixed(2);
+  document.getElementById('kpi-solar-sub').textContent  = 'Across 6 households × 30 days';
+  document.getElementById('kpi-load-sub').textContent   = 'Avg ' + (totalLoad/6/30).toFixed(1) + ' kWh/day/household';
+  document.getElementById('kpi-export-sub').textContent = 'Revenue earned from grid';
+  document.getElementById('kpi-netcost-sub').textContent = netCost < 0 ? '✓ Net positive — earning!' : '↑ Cost to utility';
+
+  // ────────────────────────────────────────────────────────────
+  drawDuckCurve(duckData);
+  drawSelfSufBar(byType);
+  drawByTypeGrouped(byType);
+  drawWealthImport(byWealth);
+  drawWealthSuf(byWealth);
+  drawBatterySOC(batterySOC);
+  drawGridFlow(gridFlow, neighborhoodSeries);
+  drawHeatmap(heatmapData);
+  drawDailyChart(dailyTotals);
+  drawNetCost(summaries);
+
+  // Scroll reveal
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+});
+
+// ═══════════════════════════════════════════════════════════════════
+// 1. DUCK CURVE
+// ═══════════════════════════════════════════════════════════════════
+function drawDuckCurve(data) {
+  const W = document.getElementById('duck-curve-chart').clientWidth || 800;
+  const H = 320, margin = { top: 20, right: 30, bottom: 40, left: 55 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#duck-curve-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const x = d3.scaleLinear().domain([0, 23]).range([0, w]);
+  const yMax = d3.max(data, d => Math.max(d.avg_load_kw, d.avg_solar_kw));
+  const yMin = d3.min(data, d => d.avg_net_kw);
+  const y = d3.scaleLinear().domain([Math.min(yMin * 1.1, -2), yMax * 1.1]).range([h, 0]);
+
+  // Grid lines
+  svg.append('g').attr('class', 'grid').call(
+    d3.axisLeft(y).ticks(5).tickSize(-w).tickFormat('')
+  ).selectAll('line').attr('class', 'grid-line');
+
+  // Zero line
+  svg.append('line').attr('x1', 0).attr('x2', w)
+    .attr('y1', y(0)).attr('y2', y(0))
+    .attr('stroke', 'rgba(255,255,255,0.15)').attr('stroke-dasharray', '4,4');
+
+  // Area under solar
+  svg.append('path')
+    .datum(data)
+    .attr('fill', 'rgba(61,255,160,0.08)')
+    .attr('d', d3.area().x(d => x(d.hour)).y0(h).y1(d => y(d.avg_solar_kw)).curve(d3.curveCatmullRom));
+
+  // Lines
+  const lineLoad  = d3.line().x(d => x(d.hour)).y(d => y(d.avg_load_kw)).curve(d3.curveCatmullRom);
+  const lineSolar = d3.line().x(d => x(d.hour)).y(d => y(d.avg_solar_kw)).curve(d3.curveCatmullRom);
+  const lineNet   = d3.line().x(d => x(d.hour)).y(d => y(d.avg_net_kw)).curve(d3.curveCatmullRom);
+
+  svg.append('path').datum(data).attr('fill', 'none').attr('stroke', '#ffb830')
+    .attr('stroke-width', 2.5).attr('d', lineLoad);
+  svg.append('path').datum(data).attr('fill', 'none').attr('stroke', '#3dffa0')
+    .attr('stroke-width', 2.5).attr('d', lineSolar);
+  svg.append('path').datum(data).attr('fill', 'none').attr('stroke', '#52d4ff')
+    .attr('stroke-width', 2).attr('stroke-dasharray', '6,3').attr('d', lineNet);
+
+  // Axes
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`).call(
+    d3.axisBottom(x).ticks(12).tickFormat(d => d + 'h'));
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).ticks(5).tickFormat(d => d.toFixed(0) + ' kW'));
+
+  // Hover overlay
+  const bisect = d3.bisector(d => d.hour).left;
+  svg.append('rect').attr('width', w).attr('height', h).attr('fill', 'none').attr('pointer-events', 'all')
+    .on('mousemove', function(event) {
+      const [mx] = d3.pointer(event);
+      const hour = Math.round(x.invert(mx));
+      const d = data.find(r => r.hour === hour);
+      if (!d) return;
+      showTip(`<strong>Hour ${d.hour}:00</strong><br>
+        Load: ${d.avg_load_kw.toFixed(2)} kW<br>
+        Solar: ${d.avg_solar_kw.toFixed(2)} kW<br>
+        Net: ${d.avg_net_kw.toFixed(2)} kW`, event);
+    })
+    .on('mouseleave', hideTip);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 2. SELF-SUFFICIENCY BY TYPE
+// ═══════════════════════════════════════════════════════════════════
+function drawSelfSufBar(data) {
+  const W = document.getElementById('self-suf-chart').clientWidth || 380;
+  const H = 220, margin = { top: 20, right: 20, bottom: 40, left: 110 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#self-suf-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const labels = { studio: 'Studio / 1-Bed', small_family: 'Small Family', large_family: 'Large Family' };
+  const x = d3.scaleLinear().domain([0, 100]).range([0, w]);
+  const y = d3.scaleBand().domain(data.map(d => d.household_type)).range([0, h]).padding(0.35);
+
+  svg.selectAll('.bar').data(data).join('rect')
+    .attr('x', 0).attr('y', d => y(d.household_type))
+    .attr('height', y.bandwidth())
+    .attr('width', 0)
+    .attr('rx', 4)
+    .attr('fill', d => TYPE_COLOR[d.household_type] || '#888')
+    .transition().duration(800).delay((_, i) => i * 120)
+    .attr('width', d => x(d.self_sufficiency_pct));
+
+  svg.selectAll('.bar-val').data(data).join('text')
+    .attr('class', 'bar-label')
+    .attr('x', d => x(d.self_sufficiency_pct) + 4)
+    .attr('y', d => y(d.household_type) + y.bandwidth() / 2 + 4)
+    .text(d => d.self_sufficiency_pct + '%')
+    .attr('fill', '#e8f5ec');
+
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).tickFormat(d => labels[d] || d));
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).ticks(4).tickFormat(d => d + '%'));
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 3. BY TYPE GROUPED BAR
+// ═══════════════════════════════════════════════════════════════════
+function drawByTypeGrouped(data) {
+  const W = document.getElementById('by-type-bar-chart').clientWidth || 380;
+  const H = 240, margin = { top: 20, right: 20, bottom: 50, left: 55 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#by-type-bar-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const keys  = ['total_solar_kwh', 'total_load_kwh', 'total_import_kwh'];
+  const cols  = ['#3dffa0', '#ffb830', '#ff5252'];
+  const labs  = { studio: 'Studio', small_family: 'Sm. Family', large_family: 'Lg. Family' };
+
+  const x0 = d3.scaleBand().domain(data.map(d => d.household_type)).range([0, w]).padding(0.25);
+  const x1 = d3.scaleBand().domain(keys).range([0, x0.bandwidth()]).padding(0.08);
+  const yMax = d3.max(data, d => Math.max(...keys.map(k => d[k])));
+  const y = d3.scaleLinear().domain([0, yMax]).range([h, 0]);
+
+  data.forEach(g => {
+    keys.forEach((k, i) => {
+      svg.append('rect')
+        .attr('x', x0(g.household_type) + x1(k))
+        .attr('y', h).attr('width', x1.bandwidth()).attr('rx', 2)
+        .attr('fill', cols[i]).attr('height', 0)
+        .transition().duration(700).delay(i * 80)
+        .attr('y', y(g[k])).attr('height', h - y(g[k]));
+    });
+  });
+
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x0).tickFormat(d => labs[d] || d));
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).ticks(4).tickFormat(d => d.toFixed(0)));
+
+  // Mini legend
+  const leg = svg.append('g').attr('transform', `translate(0,${h + 30})`);
+  ['Solar', 'Load', 'Import'].forEach((l, i) => {
+    leg.append('rect').attr('x', i * 80).attr('y', 0).attr('width', 10).attr('height', 10).attr('rx', 2).attr('fill', cols[i]);
+    leg.append('text').attr('x', i * 80 + 14).attr('y', 9).text(l).attr('fill', 'var(--muted)').attr('font-size', 9);
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 4. WEALTH IMPORT
+// ═══════════════════════════════════════════════════════════════════
+function drawWealthImport(data) {
+  const W = document.getElementById('wealth-import-chart').clientWidth || 380;
+  const H = 220, margin = { top: 20, right: 20, bottom: 40, left: 70 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#wealth-import-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const x = d3.scaleLinear().domain([0, d3.max(data, d => d.total_import_kwh)]).range([0, w]);
+  const y = d3.scaleBand().domain(data.map(d => d.wealth)).range([0, h]).padding(0.35);
+
+  svg.selectAll('.bar').data(data).join('rect')
+    .attr('x', 0).attr('y', d => y(d.wealth))
+    .attr('height', y.bandwidth()).attr('width', 0).attr('rx', 4)
+    .attr('fill', d => WEALTH_COLOR[d.wealth] || '#888')
+    .transition().duration(800).delay((_, i) => i * 100)
+    .attr('width', d => x(d.total_import_kwh));
+
+  svg.selectAll('.val').data(data).join('text').attr('class', 'bar-label')
+    .attr('x', d => x(d.total_import_kwh) + 4)
+    .attr('y', d => y(d.wealth) + y.bandwidth() / 2 + 4)
+    .text(d => d.total_import_kwh.toFixed(0) + ' kWh').attr('fill', '#e8f5ec');
+
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).tickFormat(d => d.charAt(0).toUpperCase() + d.slice(1)));
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).ticks(4).tickFormat(d => d.toFixed(0)));
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 5. WEALTH SELF-SUFFICIENCY
+// ═══════════════════════════════════════════════════════════════════
+function drawWealthSuf(data) {
+  const W = document.getElementById('wealth-suf-chart').clientWidth || 380;
+  const H = 220, margin = { top: 20, right: 20, bottom: 40, left: 70 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#wealth-suf-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const x = d3.scaleLinear().domain([0, 100]).range([0, w]);
+  const y = d3.scaleBand().domain(data.map(d => d.wealth)).range([0, h]).padding(0.35);
+
+  // Background guide at 100%
+  svg.append('line').attr('x1', x(100)).attr('x2', x(100)).attr('y1', 0).attr('y2', h)
+    .attr('stroke', 'rgba(255,255,255,0.08)').attr('stroke-dasharray', '4,4');
+
+  svg.selectAll('.bar').data(data).join('rect')
+    .attr('x', 0).attr('y', d => y(d.wealth))
+    .attr('height', y.bandwidth()).attr('width', 0).attr('rx', 4)
+    .attr('fill', d => WEALTH_COLOR[d.wealth] || '#888')
+    .transition().duration(800).delay((_, i) => i * 100)
+    .attr('width', d => x(d.self_sufficiency_pct));
+
+  svg.selectAll('.val').data(data).join('text').attr('class', 'bar-label')
+    .attr('x', d => x(d.self_sufficiency_pct) + 4)
+    .attr('y', d => y(d.wealth) + y.bandwidth() / 2 + 4)
+    .text(d => d.self_sufficiency_pct + '%').attr('fill', '#e8f5ec');
+
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).tickFormat(d => d.charAt(0).toUpperCase() + d.slice(1)));
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).ticks(4).tickFormat(d => d + '%'));
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 6. BATTERY SOC
+// ═══════════════════════════════════════════════════════════════════
+function drawBatterySOC(data) {
+  const households = [...new Set(data.map(d => d.household_id))];
+  let active = households[0];
+
+  const filterBar = d3.select('#soc-filters');
+  households.forEach(hid => {
+    filterBar.append('button').attr('class', 'filter-btn' + (hid === active ? ' active' : ''))
+      .text(hid.replace(/_/g, ' '))
+      .on('click', function() {
+        filterBar.selectAll('.filter-btn').classed('active', false);
+        d3.select(this).classed('active', true);
+        active = hid;
+        updateSOC(hid);
+      });
+  });
+
+  const W = document.getElementById('battery-soc-chart').clientWidth || 800;
+  const H = 260, margin = { top: 20, right: 30, bottom: 40, left: 50 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#battery-soc-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const maxHour = d3.max(data, d => d.hour);
+  const x = d3.scaleLinear().domain([0, maxHour]).range([0, w]);
+  const y = d3.scaleLinear().domain([0, 100]).range([h, 0]);
+
+  // Danger zone
+  svg.append('rect').attr('x', 0).attr('width', w).attr('y', y(20)).attr('height', h - y(20))
+    .attr('fill', 'rgba(255,82,82,0.04)');
+  svg.append('text').attr('x', 4).attr('y', y(5) - 4).text('min SOC').attr('fill', '#ff5252').attr('font-size', 9).attr('font-family', 'var(--font-mono)');
+
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).ticks(8).tickFormat(d => 'Day ' + Math.round(d/24+1)));
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).ticks(5).tickFormat(d => d + '%'));
+
+  const area = d3.area().x(d => x(d.hour)).y0(h).y1(d => y(d.battery_soc)).curve(d3.curveCatmullRom);
+  const line = d3.line().x(d => x(d.hour)).y(d => y(d.battery_soc)).curve(d3.curveCatmullRom);
+
+  const areaPath = svg.append('path').attr('fill', 'rgba(61,255,160,0.08)');
+  const linePath = svg.append('path').attr('fill', 'none').attr('stroke', '#3dffa0').attr('stroke-width', 2);
+
+  function updateSOC(hid) {
+    const filtered = data.filter(d => d.household_id === hid);
+    const color    = HH_COLOR[hid] || '#3dffa0';
+    areaPath.datum(filtered).attr('d', area).attr('fill', color.replace(')', ',0.08)').replace('rgb', 'rgba'));
+    linePath.datum(filtered).attr('d', line).attr('stroke', color);
+  }
+  updateSOC(active);
+
+  svg.append('rect').attr('width', w).attr('height', h).attr('fill', 'none').attr('pointer-events', 'all')
+    .on('mousemove', function(event) {
+      const [mx] = d3.pointer(event);
+      const hour = x.invert(mx);
+      const filtered = data.filter(d => d.household_id === active);
+      const bisect = d3.bisector(d => d.hour).left;
+      const idx = bisect(filtered, hour);
+      const d = filtered[idx];
+      if (!d) return;
+      showTip(`<strong>Day ${d.day}, ${d.hour_of_day}:00</strong><br>SOC: ${d.battery_soc}%`, event);
+    })
+    .on('mouseleave', hideTip);
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 7. GRID FLOW
+// ═══════════════════════════════════════════════════════════════════
+function drawGridFlow(gridFlow, neighborhoodSeries) {
+  // Daily aggregation
+  const byDay = d3.rollup(gridFlow, v => ({
+    export: d3.sum(v, r => r.export_kwh),
+    import: d3.sum(v, r => r.import_kwh),
+    net:    d3.sum(v, r => r.net_flow_kwh),
+  }), d => d.day);
+
+  const days = [...byDay.keys()].sort(d3.ascending);
+  const dayData = days.map(day => ({ day, ...byDay.get(day) }));
+
+  const W = document.getElementById('grid-flow-chart').clientWidth || 800;
+  const H = 280, margin = { top: 20, right: 30, bottom: 40, left: 60 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#grid-flow-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const xMax = d3.max(dayData, d => d.export);
+  const xMin = -d3.max(dayData, d => d.import);
+  const x = d3.scaleLinear().domain([xMin * 1.1, xMax * 1.1]).range([0, w]);
+  const y = d3.scaleBand().domain(days).range([0, h]).padding(0.2);
+
+  // zero line
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', h)
+    .attr('stroke', 'rgba(255,255,255,0.2)');
+
+  svg.selectAll('.bar').data(dayData).join('rect')
+    .attr('y', d => y(d.day))
+    .attr('height', y.bandwidth())
+    .attr('rx', 2)
+    .attr('x', d => d.net >= 0 ? x(0) : x(d.net))
+    .attr('width', d => Math.abs(x(d.net) - x(0)))
+    .attr('fill', d => d.net >= 0 ? '#3dffa0' : '#ff5252')
+    .attr('opacity', 0.85)
+    .on('mouseover', function(event, d) {
+      showTip(`<strong>Day ${d.day}</strong><br>Export: +${d.export.toFixed(1)} kWh<br>Import: -${d.import.toFixed(1)} kWh<br>Net: ${d.net.toFixed(1)} kWh`, event);
+    })
+    .on('mouseleave', hideTip);
+
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).ticks(6).tickFormat(d => d.toFixed(0)));
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).ticks(10).tickFormat(d => 'D' + d));
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 8. HEATMAP
+// ═══════════════════════════════════════════════════════════════════
+function drawHeatmap(data) {
+  const types  = [...new Set(data.map(d => d.household_type))];
+  const hours  = d3.range(24);
+  const labels = { studio: 'Studio', small_family: 'Small Family', large_family: 'Large Family' };
+
+  const W = document.getElementById('heatmap-chart').clientWidth || 800;
+  const cellW  = Math.floor((W - 160) / 24);
+  const cellH  = 44;
+  const H      = types.length * (cellH + 6) + 80;
+
+  const svg = d3.select('#heatmap-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', 'translate(130,40)');
+
+  const maxVal = d3.max(data, d => d.avg_load_kw);
+  const color  = d3.scaleSequential([0, maxVal], d3.interpolate('#162019', '#ff5252'));
+
+  types.forEach((type, ti) => {
+    const row = data.filter(d => d.household_type === type);
+    svg.append('text').attr('x', -8).attr('y', ti * (cellH + 6) + cellH / 2 + 4)
+      .attr('text-anchor', 'end').attr('fill', 'var(--muted)').attr('font-size', 10)
+      .attr('font-family', 'var(--font-mono)').text(labels[type] || type);
+
+    row.forEach(d => {
+      svg.append('rect')
+        .attr('x', d.hour * (cellW + 2)).attr('y', ti * (cellH + 6))
+        .attr('width', cellW).attr('height', cellH).attr('rx', 3)
+        .attr('fill', color(d.avg_load_kw))
+        .on('mouseover', function(event) {
+          showTip(`<strong>${labels[type]}</strong><br>Hour: ${d.hour}:00<br>Avg Load: ${d.avg_load_kw.toFixed(2)} kW`, event);
+        })
+        .on('mouseleave', hideTip);
+    });
+  });
+
+  // Hour labels
+  hours.forEach(h => {
+    if (h % 3 === 0) {
+      svg.append('text').attr('x', h * (cellW + 2) + cellW/2).attr('y', -6)
+        .attr('text-anchor', 'middle').attr('fill', 'var(--muted)').attr('font-size', 9)
+        .attr('font-family', 'var(--font-mono)').text(h + 'h');
+    }
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 9. DAILY CHART (filterable)
+// ═══════════════════════════════════════════════════════════════════
+function drawDailyChart(data) {
+  const types   = ['all', ...new Set(data.map(d => d.household_type))];
+  const labels  = { all: 'All', studio: 'Studio', small_family: 'Small Fam.', large_family: 'Large Fam.' };
+  let activeType = 'all';
+
+  const filterBar = d3.select('#daily-filters');
+  types.forEach(t => {
+    filterBar.append('button').attr('class', 'filter-btn' + (t === 'all' ? ' active' : ''))
+      .text(labels[t] || t)
+      .on('click', function() {
+        filterBar.selectAll('.filter-btn').classed('active', false);
+        d3.select(this).classed('active', true);
+        activeType = t;
+        updateDaily();
+      });
+  });
+
+  const W = document.getElementById('daily-chart').clientWidth || 800;
+  const H = 280, margin = { top: 20, right: 30, bottom: 50, left: 55 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#daily-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const days = [...new Set(data.map(d => d.day))].sort(d3.ascending);
+  const x = d3.scaleBand().domain(days).range([0, w]).padding(0.25);
+  const y = d3.scaleLinear().range([h, 0]);
+
+  svg.append('g').attr('class', 'axis x-axis').attr('transform', `translate(0,${h})`);
+  svg.append('g').attr('class', 'axis y-axis');
+
+  const barsG = svg.append('g');
+
+  function updateDaily() {
+    let filtered = activeType === 'all' ? data : data.filter(d => d.household_type === activeType);
+    const byDay  = d3.rollup(filtered, v => ({
+      solar: d3.sum(v, r => r.solar_kwh),
+      load:  d3.sum(v, r => r.load_kwh),
+    }), d => d.day);
+    const plotData = days.map(day => ({ day, ...(byDay.get(day) || { solar: 0, load: 0 }) }));
+
+    const yMax = d3.max(plotData, d => Math.max(d.solar, d.load));
+    y.domain([0, yMax * 1.1]);
+
+    svg.select('.x-axis').call(d3.axisBottom(x).tickValues(days.filter(d => d % 5 === 1)).tickFormat(d => 'D' + d));
+    svg.select('.y-axis').call(d3.axisLeft(y).ticks(5).tickFormat(d => d.toFixed(0)));
+
+    const bw = x.bandwidth() / 2;
+    barsG.selectAll('.bar-solar').data(plotData, d => d.day).join(
+      enter => enter.append('rect').attr('class', 'bar-solar').attr('rx', 2),
+      update => update, exit => exit.remove()
+    ).attr('x', d => x(d.day)).attr('width', bw).attr('fill', '#3dffa0').attr('opacity', 0.85)
+     .attr('y', d => y(d.solar)).attr('height', d => h - y(d.solar))
+     .on('mouseover', (event, d) => showTip(`<strong>Day ${d.day}</strong><br>Solar: ${d.solar.toFixed(1)} kWh`, event))
+     .on('mouseleave', hideTip);
+
+    barsG.selectAll('.bar-load').data(plotData, d => d.day).join(
+      enter => enter.append('rect').attr('class', 'bar-load').attr('rx', 2),
+      update => update, exit => exit.remove()
+    ).attr('x', d => x(d.day) + bw).attr('width', bw).attr('fill', '#ffb830').attr('opacity', 0.7)
+     .attr('y', d => y(d.load)).attr('height', d => h - y(d.load))
+     .on('mouseover', (event, d) => showTip(`<strong>Day ${d.day}</strong><br>Load: ${d.load.toFixed(1)} kWh`, event))
+     .on('mouseleave', hideTip);
+  }
+  updateDaily();
+
+  // Legend
+  const leg = svg.append('g').attr('transform', `translate(0,${h + 32})`);
+  [['Solar', '#3dffa0'], ['Load', '#ffb830']].forEach(([l, c], i) => {
+    leg.append('rect').attr('x', i * 90).attr('width', 10).attr('height', 10).attr('rx', 2).attr('fill', c);
+    leg.append('text').attr('x', i * 90 + 14).attr('y', 9).text(l).attr('fill', 'var(--muted)').attr('font-size', 9).attr('font-family', 'var(--font-mono)');
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// 10. NET COST PER HOUSEHOLD
+// ═══════════════════════════════════════════════════════════════════
+function drawNetCost(summaries) {
+  const data = summaries.map(d => ({
+    id:    d.household_id,
+    type:  d.household_type,
+    wealth: d.wealth,
+    cost:  d.grid_net_cost || 0,
+  })).sort((a, b) => a.cost - b.cost);
+
+  const W = document.getElementById('net-cost-chart').clientWidth || 800;
+  const H = 260, margin = { top: 20, right: 30, bottom: 80, left: 30 };
+  const w = W - margin.left - margin.right;
+  const h = H - margin.top  - margin.bottom;
+
+  const svg = d3.select('#net-cost-chart').append('svg')
+    .attr('width', W).attr('height', H)
+    .append('g').attr('transform', `translate(${margin.left},${margin.top})`);
+
+  const x = d3.scaleBand().domain(data.map(d => d.id)).range([0, w]).padding(0.35);
+  const yMin = d3.min(data, d => d.cost);
+  const yMax = d3.max(data, d => d.cost);
+  const y = d3.scaleLinear().domain([Math.min(yMin * 1.2, -50), yMax * 1.15]).range([h, 0]);
+
+  // zero line
+  svg.append('line').attr('x1', 0).attr('x2', w).attr('y1', y(0)).attr('y2', y(0))
+    .attr('stroke', 'rgba(255,255,255,0.2)').attr('stroke-dasharray', '4,4');
+
+  svg.selectAll('.bar').data(data).join('rect')
+    .attr('x', d => x(d.id)).attr('width', x.bandwidth()).attr('rx', 4)
+    .attr('fill', d => d.cost < 0 ? '#3dffa0' : '#ff5252').attr('opacity', 0.9)
+    .attr('y', d => d.cost < 0 ? y(0) : y(d.cost))
+    .attr('height', d => Math.abs(y(d.cost) - y(0)))
+    .on('mouseover', (event, d) => showTip(`<strong>${d.id.replace(/_/g,' ')}</strong><br>Net Cost: $${d.cost.toFixed(2)}<br>${d.cost < 0 ? '✓ Net earner' : '↑ Grid dependent'}`, event))
+    .on('mouseleave', hideTip);
+
+  svg.selectAll('.val').data(data).join('text').attr('class', 'bar-label')
+    .attr('x', d => x(d.id) + x.bandwidth() / 2).attr('text-anchor', 'middle')
+    .attr('y', d => d.cost < 0 ? y(0) + 14 : y(d.cost) - 5)
+    .text(d => '$' + d.cost.toFixed(0)).attr('fill', '#e8f5ec');
+
+  svg.append('g').attr('class', 'axis').attr('transform', `translate(0,${h})`)
+    .call(d3.axisBottom(x).tickFormat(d => d.replace(/_/g, ' ')))
+    .selectAll('text').attr('transform', 'rotate(-25)').attr('text-anchor', 'end').attr('font-size', 9);
+
+  svg.append('g').attr('class', 'axis').call(d3.axisLeft(y).ticks(5).tickFormat(d => '$' + d.toFixed(0)));
+}
+</script>
+</body>
+</html>
