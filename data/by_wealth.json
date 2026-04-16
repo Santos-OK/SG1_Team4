@@ -1,0 +1,38 @@
+[
+  {
+    "wealth": "low",
+    "total_solar_kwh": 420.86,
+    "total_load_kwh": 336.77,
+    "total_import_kwh": 53.51,
+    "total_export_kwh": 113.23,
+    "avg_load_kw": 0.468,
+    "self_sufficiency_pct": 91.4
+  },
+  {
+    "wealth": "middle",
+    "total_solar_kwh": 1220.27,
+    "total_load_kwh": 2554.61,
+    "total_import_kwh": 1537.14,
+    "total_export_kwh": 119.07,
+    "avg_load_kw": 1.183,
+    "self_sufficiency_pct": 43.1
+  },
+  {
+    "wealth": "high",
+    "total_solar_kwh": 365.16,
+    "total_load_kwh": 933.85,
+    "total_import_kwh": 618.99,
+    "total_export_kwh": 26.56,
+    "avg_load_kw": 1.297,
+    "self_sufficiency_pct": 36.3
+  },
+  {
+    "wealth": "luxury",
+    "total_solar_kwh": 413.96,
+    "total_load_kwh": 2097.62,
+    "total_import_kwh": 1773.16,
+    "total_export_kwh": 89.5,
+    "avg_load_kw": 2.913,
+    "self_sufficiency_pct": 15.5
+  }
+]

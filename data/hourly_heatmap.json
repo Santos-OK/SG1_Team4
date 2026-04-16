@@ -1,0 +1,362 @@
+[
+  {
+    "household_type": "large_family",
+    "hour": 0,
+    "avg_load_kw": 1.498
+  },
+  {
+    "household_type": "large_family",
+    "hour": 1,
+    "avg_load_kw": 1.587
+  },
+  {
+    "household_type": "large_family",
+    "hour": 2,
+    "avg_load_kw": 1.601
+  },
+  {
+    "household_type": "large_family",
+    "hour": 3,
+    "avg_load_kw": 1.828
+  },
+  {
+    "household_type": "large_family",
+    "hour": 4,
+    "avg_load_kw": 1.656
+  },
+  {
+    "household_type": "large_family",
+    "hour": 5,
+    "avg_load_kw": 1.563
+  },
+  {
+    "household_type": "large_family",
+    "hour": 6,
+    "avg_load_kw": 1.614
+  },
+  {
+    "household_type": "large_family",
+    "hour": 7,
+    "avg_load_kw": 1.714
+  },
+  {
+    "household_type": "large_family",
+    "hour": 8,
+    "avg_load_kw": 1.643
+  },
+  {
+    "household_type": "large_family",
+    "hour": 9,
+    "avg_load_kw": 1.699
+  },
+  {
+    "household_type": "large_family",
+    "hour": 10,
+    "avg_load_kw": 1.733
+  },
+  {
+    "household_type": "large_family",
+    "hour": 11,
+    "avg_load_kw": 1.909
+  },
+  {
+    "household_type": "large_family",
+    "hour": 12,
+    "avg_load_kw": 1.73
+  },
+  {
+    "household_type": "large_family",
+    "hour": 13,
+    "avg_load_kw": 1.579
+  },
+  {
+    "household_type": "large_family",
+    "hour": 14,
+    "avg_load_kw": 1.699
+  },
+  {
+    "household_type": "large_family",
+    "hour": 15,
+    "avg_load_kw": 1.705
+  },
+  {
+    "household_type": "large_family",
+    "hour": 16,
+    "avg_load_kw": 1.894
+  },
+  {
+    "household_type": "large_family",
+    "hour": 17,
+    "avg_load_kw": 1.493
+  },
+  {
+    "household_type": "large_family",
+    "hour": 18,
+    "avg_load_kw": 6.053
+  },
+  {
+    "household_type": "large_family",
+    "hour": 19,
+    "avg_load_kw": 5.822
+  },
+  {
+    "household_type": "large_family",
+    "hour": 20,
+    "avg_load_kw": 5.898
+  },
+  {
+    "household_type": "large_family",
+    "hour": 21,
+    "avg_load_kw": 6.06
+  },
+  {
+    "household_type": "large_family",
+    "hour": 22,
+    "avg_load_kw": 1.729
+  },
+  {
+    "household_type": "large_family",
+    "hour": 23,
+    "avg_load_kw": 1.8
+  },
+  {
+    "household_type": "small_family",
+    "hour": 0,
+    "avg_load_kw": 0.826
+  },
+  {
+    "household_type": "small_family",
+    "hour": 1,
+    "avg_load_kw": 0.795
+  },
+  {
+    "household_type": "small_family",
+    "hour": 2,
+    "avg_load_kw": 0.733
+  },
+  {
+    "household_type": "small_family",
+    "hour": 3,
+    "avg_load_kw": 0.653
+  },
+  {
+    "household_type": "small_family",
+    "hour": 4,
+    "avg_load_kw": 0.815
+  },
+  {
+    "household_type": "small_family",
+    "hour": 5,
+    "avg_load_kw": 0.801
+  },
+  {
+    "household_type": "small_family",
+    "hour": 6,
+    "avg_load_kw": 0.729
+  },
+  {
+    "household_type": "small_family",
+    "hour": 7,
+    "avg_load_kw": 0.821
+  },
+  {
+    "household_type": "small_family",
+    "hour": 8,
+    "avg_load_kw": 0.677
+  },
+  {
+    "household_type": "small_family",
+    "hour": 9,
+    "avg_load_kw": 0.796
+  },
+  {
+    "household_type": "small_family",
+    "hour": 10,
+    "avg_load_kw": 0.958
+  },
+  {
+    "household_type": "small_family",
+    "hour": 11,
+    "avg_load_kw": 0.78
+  },
+  {
+    "household_type": "small_family",
+    "hour": 12,
+    "avg_load_kw": 0.682
+  },
+  {
+    "household_type": "small_family",
+    "hour": 13,
+    "avg_load_kw": 0.828
+  },
+  {
+    "household_type": "small_family",
+    "hour": 14,
+    "avg_load_kw": 0.8
+  },
+  {
+    "household_type": "small_family",
+    "hour": 15,
+    "avg_load_kw": 0.688
+  },
+  {
+    "household_type": "small_family",
+    "hour": 16,
+    "avg_load_kw": 0.743
+  },
+  {
+    "household_type": "small_family",
+    "hour": 17,
+    "avg_load_kw": 0.81
+  },
+  {
+    "household_type": "small_family",
+    "hour": 18,
+    "avg_load_kw": 3.386
+  },
+  {
+    "household_type": "small_family",
+    "hour": 19,
+    "avg_load_kw": 3.575
+  },
+  {
+    "household_type": "small_family",
+    "hour": 20,
+    "avg_load_kw": 3.207
+  },
+  {
+    "household_type": "small_family",
+    "hour": 21,
+    "avg_load_kw": 3.051
+  },
+  {
+    "household_type": "small_family",
+    "hour": 22,
+    "avg_load_kw": 0.734
+  },
+  {
+    "household_type": "small_family",
+    "hour": 23,
+    "avg_load_kw": 0.878
+  },
+  {
+    "household_type": "studio",
+    "hour": 0,
+    "avg_load_kw": 0.311
+  },
+  {
+    "household_type": "studio",
+    "hour": 1,
+    "avg_load_kw": 0.277
+  },
+  {
+    "household_type": "studio",
+    "hour": 2,
+    "avg_load_kw": 0.293
+  },
+  {
+    "household_type": "studio",
+    "hour": 3,
+    "avg_load_kw": 0.342
+  },
+  {
+    "household_type": "studio",
+    "hour": 4,
+    "avg_load_kw": 0.327
+  },
+  {
+    "household_type": "studio",
+    "hour": 5,
+    "avg_load_kw": 0.308
+  },
+  {
+    "household_type": "studio",
+    "hour": 6,
+    "avg_load_kw": 0.268
+  },
+  {
+    "household_type": "studio",
+    "hour": 7,
+    "avg_load_kw": 0.378
+  },
+  {
+    "household_type": "studio",
+    "hour": 8,
+    "avg_load_kw": 0.331
+  },
+  {
+    "household_type": "studio",
+    "hour": 9,
+    "avg_load_kw": 0.32
+  },
+  {
+    "household_type": "studio",
+    "hour": 10,
+    "avg_load_kw": 0.324
+  },
+  {
+    "household_type": "studio",
+    "hour": 11,
+    "avg_load_kw": 0.357
+  },
+  {
+    "household_type": "studio",
+    "hour": 12,
+    "avg_load_kw": 0.337
+  },
+  {
+    "household_type": "studio",
+    "hour": 13,
+    "avg_load_kw": 0.377
+  },
+  {
+    "household_type": "studio",
+    "hour": 14,
+    "avg_load_kw": 0.32
+  },
+  {
+    "household_type": "studio",
+    "hour": 15,
+    "avg_load_kw": 0.311
+  },
+  {
+    "household_type": "studio",
+    "hour": 16,
+    "avg_load_kw": 0.34
+  },
+  {
+    "household_type": "studio",
+    "hour": 17,
+    "avg_load_kw": 0.331
+  },
+  {
+    "household_type": "studio",
+    "hour": 18,
+    "avg_load_kw": 1.415
+  },
+  {
+    "household_type": "studio",
+    "hour": 19,
+    "avg_load_kw": 1.598
+  },
+  {
+    "household_type": "studio",
+    "hour": 20,
+    "avg_load_kw": 1.39
+  },
+  {
+    "household_type": "studio",
+    "hour": 21,
+    "avg_load_kw": 1.514
+  },
+  {
+    "household_type": "studio",
+    "hour": 22,
+    "avg_load_kw": 0.358
+  },
+  {
+    "household_type": "studio",
+    "hour": 23,
+    "avg_load_kw": 0.314
+  }
+]

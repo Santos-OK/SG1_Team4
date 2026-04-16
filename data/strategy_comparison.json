@@ -1,0 +1,10 @@
+[
+  {
+    "strategy": "CHARGE_PRIORITY",
+    "total_cost": 2987.1,
+    "total_revenue": 313.51,
+    "net_cost": 2673.59,
+    "total_import": 3982.81,
+    "total_export": 348.35
+  }
+]
