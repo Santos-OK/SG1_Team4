@@ -1,74 +1,49 @@
 import random
-import config
-
+import simpy
 
 class Inverter:
-    def __init__(self, max_output:float=config.INVERTER_MAX_OUTPUT, fail_rate:float=config.INVERTER_FAILURE_RATE, min_fail_duration:float=config.INVERTER_MIN_FAILURE_HOURS, max_fail_duration: float=config.INVERTER_MAX_FAILURE_HOURS):
-        self.__max_output = max_output                  # Max Output (kW)
-        self.__fail_rate = fail_rate                    # Probability of the inverter to fail. (0-1)
-        self.__min_fail_duration = min_fail_duration    # Min duration of downtime
-        self.__max_fail_duration = max_fail_duration    # Max duration of downtime
-        self.__is_operational = True    
-        self.__failure_time_remaining = 0
-        self.__total_failures = 0      
-        self.__total_downtime_hours = 0
+    def __init__(self, cfg: dict, env: simpy.Environment):
+        self.env = env
+        self.max_output = cfg["max_output_kw"]
+        self.failure_rate = cfg["failure_rate_per_day"]
+        self.min_fail_hours = cfg["min_failure_hours"]
+        self.max_fail_hours = cfg["max_failure_hours"]
 
-    def __inverter_fails(self) -> tuple[bool, int]:
-        """Checks if the inverter fails.
+        self._operational = True
+        self.total_failures = 0
+        self.total_downtime_hours = 0.0
 
-        Returns:
-            tuple[bool, int]: Tuple containing whether the inverter fails and the downtime it will have.
+        self.env.process(self._failure_monitor())
+
+    def _failure_monitor(self):
         """
-        # Checks if the inverter fails
-        fails = random.random() < self.__fail_rate
-
-        # Calculates the downtime
-        duration = random.randint(self.__min_fail_duration, self.__max_fail_duration)
-
-        return fails, duration if fails else 0
-        
-    def __update_failure(self, duration_hours:int):
-        """Updates the fail status of the inverter, whether from failing or resuming from a failure.
-
-        Args:
-            duration_hours (int): The amount of downtime the inverter will have.
+        Checks every hour for inverter failure
         """
-        self.__is_operational = not self.__is_operational
-        self.__failure_time_remaining = duration_hours
-        self.__total_downtime_hours += duration_hours
-        if not self.__is_operational: self.__total_failures += 1 
-        
-        if config.VERBOSE:
-            if self.__is_operational: print(f"  ⚡ Inverter working again")
-            else: print(f"  ❌ ¡INVERTER FAILURE! Downtime: {duration_hours} hours")
-    
-    def update(self, time_step_hours:float):
-        """Updates the status of the inverter, may cause failure depending on the hours used.
+        while True:
+            yield self.env.timeout(1)
+            if self._operational:
+                hourly_failure_rate = self.failure_rate / 24.0
+                if random.random() < (hourly_failure_rate):
+                    duration = random.uniform(self.min_fail_hours, self.max_fail_hours)
+                    self.env.process(self._handle_failure(duration))
 
-        Args:
-            time_step_hours (float): The amount of hours the inverter is used.
+    def _handle_failure(self, duration_hours: float):
         """
-        if not self.__is_operational:
-            self.__failure_time_remaining -= time_step_hours
-            if self.__failure_time_remaining <= 0: self.__update_failure(0)
-        else:
-            step_failure_prob = self.__fail_rate * (time_step_hours / 24.0)
-            
-            if random.random() < step_failure_prob:
-                failed, duration = self.__inverter_fails()
-                if failed: self.__update_failure(duration)
-    
-    def get_max_output(self) -> float:
-        return self.__max_output
-    
+        Updates information regarding failure
+        """
+        self._operational          = False
+        self.total_failures        += 1
+        self.total_downtime_hours  += duration_hours
+        yield self.env.timeout(duration_hours)
+        self._operational = True
+
     def is_operational(self) -> bool:
-        return self.__is_operational
-    
-    def get_status(self):
+        return self._operational
+
+    def get_status(self) -> dict:
         return {
-            'is_operational': self.__is_operational,
-            'max_output_kw': self.__max_output,
-            'failure_time_remaining': round(self.__failure_time_remaining, 2),
-            'total_failures': self.__total_failures,
-            'total_downtime_hours': round(self.__total_downtime_hours, 2)
-        }
+                "is_operational": self._operational,
+                "max_output_kw": self.max_output,
+                "total_failures": self.total_failures,
+                "total_downtime_hours": round(self.total_downtime_hours, 2),
+               }
