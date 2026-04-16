@@ -1,0 +1,12 @@
+{
+  "duck_curve": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\duck_curve.json",
+  "daily_totals": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\daily_totals.json",
+  "hourly_heatmap": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\hourly_heatmap.json",
+  "by_type": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\by_type.json",
+  "by_wealth": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\by_wealth.json",
+  "battery_soc": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\battery_soc.json",
+  "grid_flow": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\grid_flow.json",
+  "household_summaries": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\household_summaries.json",
+  "strategy_comparison": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\strategy_comparison.json",
+  "neighborhood_series": "D:\\Universidad\\VS2026\\SG1_Team4\\data\\neighborhood_series.json"
+}

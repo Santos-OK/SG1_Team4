@@ -1,0 +1,6482 @@
+[
+  {
+    "hour": 0.0,
+    "day": 1,
+    "hour_of_day": 0,
+    "import_kwh": 1.566,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.566,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 1.0,
+    "day": 1,
+    "hour_of_day": 1,
+    "import_kwh": 0.814,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.814,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 2.0,
+    "day": 1,
+    "hour_of_day": 2,
+    "import_kwh": 0.309,
+    "export_kwh": 0.015,
+    "net_flow_kwh": -0.294,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 3.0,
+    "day": 1,
+    "hour_of_day": 3,
+    "import_kwh": 1.928,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.928,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 4.0,
+    "day": 1,
+    "hour_of_day": 4,
+    "import_kwh": 0.314,
+    "export_kwh": 1.187,
+    "net_flow_kwh": 0.873,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 5.0,
+    "day": 1,
+    "hour_of_day": 5,
+    "import_kwh": 0.135,
+    "export_kwh": 3.733,
+    "net_flow_kwh": 3.598,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 6.0,
+    "day": 1,
+    "hour_of_day": 6,
+    "import_kwh": 0.079,
+    "export_kwh": 6.029,
+    "net_flow_kwh": 5.95,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 7.0,
+    "day": 1,
+    "hour_of_day": 7,
+    "import_kwh": 0.054,
+    "export_kwh": 8.19,
+    "net_flow_kwh": 8.136,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 8.0,
+    "day": 1,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 10.545,
+    "net_flow_kwh": 10.545,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 9.0,
+    "day": 1,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 8.066,
+    "net_flow_kwh": 8.066,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 10.0,
+    "day": 1,
+    "hour_of_day": 10,
+    "import_kwh": 1.686,
+    "export_kwh": 3.864,
+    "net_flow_kwh": 2.178,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 11.0,
+    "day": 1,
+    "hour_of_day": 11,
+    "import_kwh": 0.704,
+    "export_kwh": 1.075,
+    "net_flow_kwh": 0.371,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 12.0,
+    "day": 1,
+    "hour_of_day": 12,
+    "import_kwh": 1.569,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.569,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 13.0,
+    "day": 1,
+    "hour_of_day": 13,
+    "import_kwh": 1.819,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.819,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 14.0,
+    "day": 1,
+    "hour_of_day": 14,
+    "import_kwh": 2.498,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.498,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 15.0,
+    "day": 1,
+    "hour_of_day": 15,
+    "import_kwh": 1.842,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.842,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 16.0,
+    "day": 1,
+    "hour_of_day": 16,
+    "import_kwh": 5.404,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.404,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 17.0,
+    "day": 1,
+    "hour_of_day": 17,
+    "import_kwh": 1.838,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.838,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 18.0,
+    "day": 1,
+    "hour_of_day": 18,
+    "import_kwh": 13.767,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.767,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 19.0,
+    "day": 1,
+    "hour_of_day": 19,
+    "import_kwh": 23.147,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -23.147,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 20.0,
+    "day": 1,
+    "hour_of_day": 20,
+    "import_kwh": 16.071,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.071,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 21.0,
+    "day": 1,
+    "hour_of_day": 21,
+    "import_kwh": 19.426,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.426,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 22.0,
+    "day": 1,
+    "hour_of_day": 22,
+    "import_kwh": 3.491,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.491,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 23.0,
+    "day": 1,
+    "hour_of_day": 23,
+    "import_kwh": 3.48,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.48,
+    "cloud_coverage": 0.418
+  },
+  {
+    "hour": 24.0,
+    "day": 2,
+    "hour_of_day": 0,
+    "import_kwh": 6.748,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.748,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 25.0,
+    "day": 2,
+    "hour_of_day": 1,
+    "import_kwh": 3.434,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.434,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 26.0,
+    "day": 2,
+    "hour_of_day": 2,
+    "import_kwh": 2.002,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.002,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 27.0,
+    "day": 2,
+    "hour_of_day": 3,
+    "import_kwh": 2.218,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.218,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 28.0,
+    "day": 2,
+    "hour_of_day": 4,
+    "import_kwh": 3.247,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.247,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 29.0,
+    "day": 2,
+    "hour_of_day": 5,
+    "import_kwh": 0.295,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.295,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 30.0,
+    "day": 2,
+    "hour_of_day": 6,
+    "import_kwh": 0.289,
+    "export_kwh": 0.144,
+    "net_flow_kwh": -0.145,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 31.0,
+    "day": 2,
+    "hour_of_day": 7,
+    "import_kwh": 0.234,
+    "export_kwh": 0.099,
+    "net_flow_kwh": -0.135,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 32.0,
+    "day": 2,
+    "hour_of_day": 8,
+    "import_kwh": 1.298,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.298,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 33.0,
+    "day": 2,
+    "hour_of_day": 9,
+    "import_kwh": 0.497,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.497,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 34.0,
+    "day": 2,
+    "hour_of_day": 10,
+    "import_kwh": 1.25,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.25,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 35.0,
+    "day": 2,
+    "hour_of_day": 11,
+    "import_kwh": 1.894,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.894,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 36.0,
+    "day": 2,
+    "hour_of_day": 12,
+    "import_kwh": 8.759,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.759,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 37.0,
+    "day": 2,
+    "hour_of_day": 13,
+    "import_kwh": 2.866,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.866,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 38.0,
+    "day": 2,
+    "hour_of_day": 14,
+    "import_kwh": 3.0,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.0,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 39.0,
+    "day": 2,
+    "hour_of_day": 15,
+    "import_kwh": 4.761,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.761,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 40.0,
+    "day": 2,
+    "hour_of_day": 16,
+    "import_kwh": 4.277,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.277,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 41.0,
+    "day": 2,
+    "hour_of_day": 17,
+    "import_kwh": 6.532,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.532,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 42.0,
+    "day": 2,
+    "hour_of_day": 18,
+    "import_kwh": 5.824,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.824,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 43.0,
+    "day": 2,
+    "hour_of_day": 19,
+    "import_kwh": 10.332,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.332,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 44.0,
+    "day": 2,
+    "hour_of_day": 20,
+    "import_kwh": 19.442,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.442,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 45.0,
+    "day": 2,
+    "hour_of_day": 21,
+    "import_kwh": 15.801,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -15.801,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 46.0,
+    "day": 2,
+    "hour_of_day": 22,
+    "import_kwh": 4.211,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.211,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 47.0,
+    "day": 2,
+    "hour_of_day": 23,
+    "import_kwh": 3.177,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.177,
+    "cloud_coverage": 0.722
+  },
+  {
+    "hour": 48.0,
+    "day": 3,
+    "hour_of_day": 0,
+    "import_kwh": 7.224,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.224,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 49.0,
+    "day": 3,
+    "hour_of_day": 1,
+    "import_kwh": 1.655,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.655,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 50.0,
+    "day": 3,
+    "hour_of_day": 2,
+    "import_kwh": 2.401,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.401,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 51.0,
+    "day": 3,
+    "hour_of_day": 3,
+    "import_kwh": 0.847,
+    "export_kwh": 0.047,
+    "net_flow_kwh": -0.8,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 52.0,
+    "day": 3,
+    "hour_of_day": 4,
+    "import_kwh": 0.763,
+    "export_kwh": 0.009,
+    "net_flow_kwh": -0.754,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 53.0,
+    "day": 3,
+    "hour_of_day": 5,
+    "import_kwh": 0.238,
+    "export_kwh": 0.357,
+    "net_flow_kwh": 0.119,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 54.0,
+    "day": 3,
+    "hour_of_day": 6,
+    "import_kwh": 0.257,
+    "export_kwh": 0.305,
+    "net_flow_kwh": 0.048,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 55.0,
+    "day": 3,
+    "hour_of_day": 7,
+    "import_kwh": 0.153,
+    "export_kwh": 0.269,
+    "net_flow_kwh": 0.116,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 56.0,
+    "day": 3,
+    "hour_of_day": 8,
+    "import_kwh": 2.665,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.665,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 57.0,
+    "day": 3,
+    "hour_of_day": 9,
+    "import_kwh": 0.595,
+    "export_kwh": 0.884,
+    "net_flow_kwh": 0.289,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 58.0,
+    "day": 3,
+    "hour_of_day": 10,
+    "import_kwh": 0.887,
+    "export_kwh": 0.701,
+    "net_flow_kwh": -0.186,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 59.0,
+    "day": 3,
+    "hour_of_day": 11,
+    "import_kwh": 2.245,
+    "export_kwh": 0.27,
+    "net_flow_kwh": -1.975,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 60.0,
+    "day": 3,
+    "hour_of_day": 12,
+    "import_kwh": 4.823,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.823,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 61.0,
+    "day": 3,
+    "hour_of_day": 13,
+    "import_kwh": 3.889,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.889,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 62.0,
+    "day": 3,
+    "hour_of_day": 14,
+    "import_kwh": 8.2,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.2,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 63.0,
+    "day": 3,
+    "hour_of_day": 15,
+    "import_kwh": 5.859,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.859,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 64.0,
+    "day": 3,
+    "hour_of_day": 16,
+    "import_kwh": 3.758,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.758,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 65.0,
+    "day": 3,
+    "hour_of_day": 17,
+    "import_kwh": 2.71,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.71,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 66.0,
+    "day": 3,
+    "hour_of_day": 18,
+    "import_kwh": 12.842,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.842,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 67.0,
+    "day": 3,
+    "hour_of_day": 19,
+    "import_kwh": 19.857,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.857,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 68.0,
+    "day": 3,
+    "hour_of_day": 20,
+    "import_kwh": 24.049,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.049,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 69.0,
+    "day": 3,
+    "hour_of_day": 21,
+    "import_kwh": 19.622,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.622,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 70.0,
+    "day": 3,
+    "hour_of_day": 22,
+    "import_kwh": 3.273,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.273,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 71.0,
+    "day": 3,
+    "hour_of_day": 23,
+    "import_kwh": 4.96,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.96,
+    "cloud_coverage": 0.647
+  },
+  {
+    "hour": 72.0,
+    "day": 4,
+    "hour_of_day": 0,
+    "import_kwh": 3.629,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.629,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 73.0,
+    "day": 4,
+    "hour_of_day": 1,
+    "import_kwh": 3.714,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.714,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 74.0,
+    "day": 4,
+    "hour_of_day": 2,
+    "import_kwh": 1.853,
+    "export_kwh": 0.394,
+    "net_flow_kwh": -1.459,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 75.0,
+    "day": 4,
+    "hour_of_day": 3,
+    "import_kwh": 0.116,
+    "export_kwh": 1.434,
+    "net_flow_kwh": 1.318,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 76.0,
+    "day": 4,
+    "hour_of_day": 4,
+    "import_kwh": 1.313,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.313,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 77.0,
+    "day": 4,
+    "hour_of_day": 5,
+    "import_kwh": 0.283,
+    "export_kwh": 2.547,
+    "net_flow_kwh": 2.264,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 78.0,
+    "day": 4,
+    "hour_of_day": 6,
+    "import_kwh": 0.097,
+    "export_kwh": 6.708,
+    "net_flow_kwh": 6.611,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 79.0,
+    "day": 4,
+    "hour_of_day": 7,
+    "import_kwh": 0.057,
+    "export_kwh": 11.25,
+    "net_flow_kwh": 11.193,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 80.0,
+    "day": 4,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 10.413,
+    "net_flow_kwh": 10.413,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 81.0,
+    "day": 4,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 8.575,
+    "net_flow_kwh": 8.575,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 82.0,
+    "day": 4,
+    "hour_of_day": 10,
+    "import_kwh": 0.029,
+    "export_kwh": 5.827,
+    "net_flow_kwh": 5.798,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 83.0,
+    "day": 4,
+    "hour_of_day": 11,
+    "import_kwh": 0.437,
+    "export_kwh": 2.265,
+    "net_flow_kwh": 1.828,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 84.0,
+    "day": 4,
+    "hour_of_day": 12,
+    "import_kwh": 1.728,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.728,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 85.0,
+    "day": 4,
+    "hour_of_day": 13,
+    "import_kwh": 1.598,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.598,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 86.0,
+    "day": 4,
+    "hour_of_day": 14,
+    "import_kwh": 1.889,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.889,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 87.0,
+    "day": 4,
+    "hour_of_day": 15,
+    "import_kwh": 4.029,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.029,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 88.0,
+    "day": 4,
+    "hour_of_day": 16,
+    "import_kwh": 1.665,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.665,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 89.0,
+    "day": 4,
+    "hour_of_day": 17,
+    "import_kwh": 1.74,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.74,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 90.0,
+    "day": 4,
+    "hour_of_day": 18,
+    "import_kwh": 12.246,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.246,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 91.0,
+    "day": 4,
+    "hour_of_day": 19,
+    "import_kwh": 10.833,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.833,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 92.0,
+    "day": 4,
+    "hour_of_day": 20,
+    "import_kwh": 16.845,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.845,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 93.0,
+    "day": 4,
+    "hour_of_day": 21,
+    "import_kwh": 13.894,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.894,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 94.0,
+    "day": 4,
+    "hour_of_day": 22,
+    "import_kwh": 2.983,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.983,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 95.0,
+    "day": 4,
+    "hour_of_day": 23,
+    "import_kwh": 5.629,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.629,
+    "cloud_coverage": 0.281
+  },
+  {
+    "hour": 96.0,
+    "day": 5,
+    "hour_of_day": 0,
+    "import_kwh": 6.798,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.798,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 97.0,
+    "day": 5,
+    "hour_of_day": 1,
+    "import_kwh": 2.069,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.069,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 98.0,
+    "day": 5,
+    "hour_of_day": 2,
+    "import_kwh": 0.659,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.659,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 99.0,
+    "day": 5,
+    "hour_of_day": 3,
+    "import_kwh": 1.095,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.095,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 100.0,
+    "day": 5,
+    "hour_of_day": 4,
+    "import_kwh": 3.314,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.314,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 101.0,
+    "day": 5,
+    "hour_of_day": 5,
+    "import_kwh": 0.412,
+    "export_kwh": 0.645,
+    "net_flow_kwh": 0.233,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 102.0,
+    "day": 5,
+    "hour_of_day": 6,
+    "import_kwh": 0.307,
+    "export_kwh": 0.577,
+    "net_flow_kwh": 0.27,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 103.0,
+    "day": 5,
+    "hour_of_day": 7,
+    "import_kwh": 2.677,
+    "export_kwh": 0.018,
+    "net_flow_kwh": -2.659,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 104.0,
+    "day": 5,
+    "hour_of_day": 8,
+    "import_kwh": 0.985,
+    "export_kwh": 2.008,
+    "net_flow_kwh": 1.023,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 105.0,
+    "day": 5,
+    "hour_of_day": 9,
+    "import_kwh": 0.191,
+    "export_kwh": 2.314,
+    "net_flow_kwh": 2.123,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 106.0,
+    "day": 5,
+    "hour_of_day": 10,
+    "import_kwh": 2.899,
+    "export_kwh": 1.534,
+    "net_flow_kwh": -1.365,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 107.0,
+    "day": 5,
+    "hour_of_day": 11,
+    "import_kwh": 2.981,
+    "export_kwh": 0.571,
+    "net_flow_kwh": -2.41,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 108.0,
+    "day": 5,
+    "hour_of_day": 12,
+    "import_kwh": 2.625,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.625,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 109.0,
+    "day": 5,
+    "hour_of_day": 13,
+    "import_kwh": 2.565,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.565,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 110.0,
+    "day": 5,
+    "hour_of_day": 14,
+    "import_kwh": 4.668,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.668,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 111.0,
+    "day": 5,
+    "hour_of_day": 15,
+    "import_kwh": 5.175,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.175,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 112.0,
+    "day": 5,
+    "hour_of_day": 16,
+    "import_kwh": 2.824,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.824,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 113.0,
+    "day": 5,
+    "hour_of_day": 17,
+    "import_kwh": 6.321,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.321,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 114.0,
+    "day": 5,
+    "hour_of_day": 18,
+    "import_kwh": 13.351,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.351,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 115.0,
+    "day": 5,
+    "hour_of_day": 19,
+    "import_kwh": 22.313,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -22.313,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 116.0,
+    "day": 5,
+    "hour_of_day": 20,
+    "import_kwh": 17.767,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.767,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 117.0,
+    "day": 5,
+    "hour_of_day": 21,
+    "import_kwh": 20.739,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.739,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 118.0,
+    "day": 5,
+    "hour_of_day": 22,
+    "import_kwh": 7.28,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.28,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 119.0,
+    "day": 5,
+    "hour_of_day": 23,
+    "import_kwh": 5.74,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.74,
+    "cloud_coverage": 0.606
+  },
+  {
+    "hour": 120.0,
+    "day": 6,
+    "hour_of_day": 0,
+    "import_kwh": 4.038,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.038,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 121.0,
+    "day": 6,
+    "hour_of_day": 1,
+    "import_kwh": 0.857,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.857,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 122.0,
+    "day": 6,
+    "hour_of_day": 2,
+    "import_kwh": 0.142,
+    "export_kwh": 0.184,
+    "net_flow_kwh": 0.042,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 123.0,
+    "day": 6,
+    "hour_of_day": 3,
+    "import_kwh": 0.186,
+    "export_kwh": 1.001,
+    "net_flow_kwh": 0.815,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 124.0,
+    "day": 6,
+    "hour_of_day": 4,
+    "import_kwh": 0.56,
+    "export_kwh": 1.654,
+    "net_flow_kwh": 1.094,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 125.0,
+    "day": 6,
+    "hour_of_day": 5,
+    "import_kwh": 0.23,
+    "export_kwh": 4.213,
+    "net_flow_kwh": 3.983,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 126.0,
+    "day": 6,
+    "hour_of_day": 6,
+    "import_kwh": 0.081,
+    "export_kwh": 5.336,
+    "net_flow_kwh": 5.255,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 127.0,
+    "day": 6,
+    "hour_of_day": 7,
+    "import_kwh": 0.285,
+    "export_kwh": 8.019,
+    "net_flow_kwh": 7.734,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 128.0,
+    "day": 6,
+    "hour_of_day": 8,
+    "import_kwh": 0.077,
+    "export_kwh": 7.562,
+    "net_flow_kwh": 7.485,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 129.0,
+    "day": 6,
+    "hour_of_day": 9,
+    "import_kwh": 0.245,
+    "export_kwh": 8.38,
+    "net_flow_kwh": 8.135,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 130.0,
+    "day": 6,
+    "hour_of_day": 10,
+    "import_kwh": 0.074,
+    "export_kwh": 5.846,
+    "net_flow_kwh": 5.772,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 131.0,
+    "day": 6,
+    "hour_of_day": 11,
+    "import_kwh": 3.403,
+    "export_kwh": 1.703,
+    "net_flow_kwh": -1.7,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 132.0,
+    "day": 6,
+    "hour_of_day": 12,
+    "import_kwh": 1.456,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.456,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 133.0,
+    "day": 6,
+    "hour_of_day": 13,
+    "import_kwh": 1.775,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.775,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 134.0,
+    "day": 6,
+    "hour_of_day": 14,
+    "import_kwh": 3.517,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.517,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 135.0,
+    "day": 6,
+    "hour_of_day": 15,
+    "import_kwh": 2.098,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.098,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 136.0,
+    "day": 6,
+    "hour_of_day": 16,
+    "import_kwh": 1.627,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.627,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 137.0,
+    "day": 6,
+    "hour_of_day": 17,
+    "import_kwh": 1.607,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.607,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 138.0,
+    "day": 6,
+    "hour_of_day": 18,
+    "import_kwh": 21.499,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.499,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 139.0,
+    "day": 6,
+    "hour_of_day": 19,
+    "import_kwh": 20.068,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.068,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 140.0,
+    "day": 6,
+    "hour_of_day": 20,
+    "import_kwh": 15.925,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -15.925,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 141.0,
+    "day": 6,
+    "hour_of_day": 21,
+    "import_kwh": 20.784,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.784,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 142.0,
+    "day": 6,
+    "hour_of_day": 22,
+    "import_kwh": 5.435,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.435,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 143.0,
+    "day": 6,
+    "hour_of_day": 23,
+    "import_kwh": 8.031,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.031,
+    "cloud_coverage": 0.316
+  },
+  {
+    "hour": 144.0,
+    "day": 7,
+    "hour_of_day": 0,
+    "import_kwh": 7.814,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.814,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 145.0,
+    "day": 7,
+    "hour_of_day": 1,
+    "import_kwh": 3.898,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.898,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 146.0,
+    "day": 7,
+    "hour_of_day": 2,
+    "import_kwh": 1.103,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.103,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 147.0,
+    "day": 7,
+    "hour_of_day": 3,
+    "import_kwh": 3.378,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.378,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 148.0,
+    "day": 7,
+    "hour_of_day": 4,
+    "import_kwh": 2.621,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.621,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 149.0,
+    "day": 7,
+    "hour_of_day": 5,
+    "import_kwh": 1.012,
+    "export_kwh": 0.003,
+    "net_flow_kwh": -1.009,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 150.0,
+    "day": 7,
+    "hour_of_day": 6,
+    "import_kwh": 1.278,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.278,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 151.0,
+    "day": 7,
+    "hour_of_day": 7,
+    "import_kwh": 1.83,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.83,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 152.0,
+    "day": 7,
+    "hour_of_day": 8,
+    "import_kwh": 0.42,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.42,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 153.0,
+    "day": 7,
+    "hour_of_day": 9,
+    "import_kwh": 0.719,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.719,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 154.0,
+    "day": 7,
+    "hour_of_day": 10,
+    "import_kwh": 0.949,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.949,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 155.0,
+    "day": 7,
+    "hour_of_day": 11,
+    "import_kwh": 3.689,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.689,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 156.0,
+    "day": 7,
+    "hour_of_day": 12,
+    "import_kwh": 5.095,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.095,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 157.0,
+    "day": 7,
+    "hour_of_day": 13,
+    "import_kwh": 3.519,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.519,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 158.0,
+    "day": 7,
+    "hour_of_day": 14,
+    "import_kwh": 2.515,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.515,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 159.0,
+    "day": 7,
+    "hour_of_day": 15,
+    "import_kwh": 6.399,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.399,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 160.0,
+    "day": 7,
+    "hour_of_day": 16,
+    "import_kwh": 5.4,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.4,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 161.0,
+    "day": 7,
+    "hour_of_day": 17,
+    "import_kwh": 4.883,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.883,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 162.0,
+    "day": 7,
+    "hour_of_day": 18,
+    "import_kwh": 24.359,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.359,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 163.0,
+    "day": 7,
+    "hour_of_day": 19,
+    "import_kwh": 14.481,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.481,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 164.0,
+    "day": 7,
+    "hour_of_day": 20,
+    "import_kwh": 16.327,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.327,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 165.0,
+    "day": 7,
+    "hour_of_day": 21,
+    "import_kwh": 14.317,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.317,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 166.0,
+    "day": 7,
+    "hour_of_day": 22,
+    "import_kwh": 4.289,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.289,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 167.0,
+    "day": 7,
+    "hour_of_day": 23,
+    "import_kwh": 3.493,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.493,
+    "cloud_coverage": 0.716
+  },
+  {
+    "hour": 168.0,
+    "day": 8,
+    "hour_of_day": 0,
+    "import_kwh": 6.253,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.253,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 169.0,
+    "day": 8,
+    "hour_of_day": 1,
+    "import_kwh": 1.722,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.722,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 170.0,
+    "day": 8,
+    "hour_of_day": 2,
+    "import_kwh": 0.881,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.881,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 171.0,
+    "day": 8,
+    "hour_of_day": 3,
+    "import_kwh": 2.329,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.329,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 172.0,
+    "day": 8,
+    "hour_of_day": 4,
+    "import_kwh": 0.249,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.249,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 173.0,
+    "day": 8,
+    "hour_of_day": 5,
+    "import_kwh": 1.117,
+    "export_kwh": 0.296,
+    "net_flow_kwh": -0.821,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 174.0,
+    "day": 8,
+    "hour_of_day": 6,
+    "import_kwh": 0.347,
+    "export_kwh": 0.423,
+    "net_flow_kwh": 0.076,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 175.0,
+    "day": 8,
+    "hour_of_day": 7,
+    "import_kwh": 3.496,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.496,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 176.0,
+    "day": 8,
+    "hour_of_day": 8,
+    "import_kwh": 0.32,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.32,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 177.0,
+    "day": 8,
+    "hour_of_day": 9,
+    "import_kwh": 0.98,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.98,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 178.0,
+    "day": 8,
+    "hour_of_day": 10,
+    "import_kwh": 0.875,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.875,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 179.0,
+    "day": 8,
+    "hour_of_day": 11,
+    "import_kwh": 2.19,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.19,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 180.0,
+    "day": 8,
+    "hour_of_day": 12,
+    "import_kwh": 2.39,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.39,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 181.0,
+    "day": 8,
+    "hour_of_day": 13,
+    "import_kwh": 2.36,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.36,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 182.0,
+    "day": 8,
+    "hour_of_day": 14,
+    "import_kwh": 3.49,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.49,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 183.0,
+    "day": 8,
+    "hour_of_day": 15,
+    "import_kwh": 2.81,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.81,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 184.0,
+    "day": 8,
+    "hour_of_day": 16,
+    "import_kwh": 6.737,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.737,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 185.0,
+    "day": 8,
+    "hour_of_day": 17,
+    "import_kwh": 4.884,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.884,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 186.0,
+    "day": 8,
+    "hour_of_day": 18,
+    "import_kwh": 16.963,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.963,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 187.0,
+    "day": 8,
+    "hour_of_day": 19,
+    "import_kwh": 11.753,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -11.753,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 188.0,
+    "day": 8,
+    "hour_of_day": 20,
+    "import_kwh": 16.406,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.406,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 189.0,
+    "day": 8,
+    "hour_of_day": 21,
+    "import_kwh": 16.126,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.126,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 190.0,
+    "day": 8,
+    "hour_of_day": 22,
+    "import_kwh": 3.756,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.756,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 191.0,
+    "day": 8,
+    "hour_of_day": 23,
+    "import_kwh": 3.573,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.573,
+    "cloud_coverage": 0.662
+  },
+  {
+    "hour": 192.0,
+    "day": 9,
+    "hour_of_day": 0,
+    "import_kwh": 5.373,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.373,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 193.0,
+    "day": 9,
+    "hour_of_day": 1,
+    "import_kwh": 4.981,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.981,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 194.0,
+    "day": 9,
+    "hour_of_day": 2,
+    "import_kwh": 1.955,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.955,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 195.0,
+    "day": 9,
+    "hour_of_day": 3,
+    "import_kwh": 0.389,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.389,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 196.0,
+    "day": 9,
+    "hour_of_day": 4,
+    "import_kwh": 5.378,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.378,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 197.0,
+    "day": 9,
+    "hour_of_day": 5,
+    "import_kwh": 0.284,
+    "export_kwh": 0.17,
+    "net_flow_kwh": -0.114,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 198.0,
+    "day": 9,
+    "hour_of_day": 6,
+    "import_kwh": 0.366,
+    "export_kwh": 0.281,
+    "net_flow_kwh": -0.085,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 199.0,
+    "day": 9,
+    "hour_of_day": 7,
+    "import_kwh": 0.214,
+    "export_kwh": 0.017,
+    "net_flow_kwh": -0.197,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 200.0,
+    "day": 9,
+    "hour_of_day": 8,
+    "import_kwh": 0.572,
+    "export_kwh": 0.009,
+    "net_flow_kwh": -0.563,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 201.0,
+    "day": 9,
+    "hour_of_day": 9,
+    "import_kwh": 0.419,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.419,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 202.0,
+    "day": 9,
+    "hour_of_day": 10,
+    "import_kwh": 1.013,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.013,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 203.0,
+    "day": 9,
+    "hour_of_day": 11,
+    "import_kwh": 2.944,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.944,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 204.0,
+    "day": 9,
+    "hour_of_day": 12,
+    "import_kwh": 3.469,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.469,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 205.0,
+    "day": 9,
+    "hour_of_day": 13,
+    "import_kwh": 2.934,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.934,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 206.0,
+    "day": 9,
+    "hour_of_day": 14,
+    "import_kwh": 6.224,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.224,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 207.0,
+    "day": 9,
+    "hour_of_day": 15,
+    "import_kwh": 2.675,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.675,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 208.0,
+    "day": 9,
+    "hour_of_day": 16,
+    "import_kwh": 5.015,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.015,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 209.0,
+    "day": 9,
+    "hour_of_day": 17,
+    "import_kwh": 2.822,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.822,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 210.0,
+    "day": 9,
+    "hour_of_day": 18,
+    "import_kwh": 27.465,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -27.465,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 211.0,
+    "day": 9,
+    "hour_of_day": 19,
+    "import_kwh": 23.577,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -23.577,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 212.0,
+    "day": 9,
+    "hour_of_day": 20,
+    "import_kwh": 17.602,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.602,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 213.0,
+    "day": 9,
+    "hour_of_day": 21,
+    "import_kwh": 16.205,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.205,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 214.0,
+    "day": 9,
+    "hour_of_day": 22,
+    "import_kwh": 3.491,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.491,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 215.0,
+    "day": 9,
+    "hour_of_day": 23,
+    "import_kwh": 3.771,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.771,
+    "cloud_coverage": 0.68
+  },
+  {
+    "hour": 216.0,
+    "day": 10,
+    "hour_of_day": 0,
+    "import_kwh": 6.768,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.768,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 217.0,
+    "day": 10,
+    "hour_of_day": 1,
+    "import_kwh": 3.077,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.077,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 218.0,
+    "day": 10,
+    "hour_of_day": 2,
+    "import_kwh": 0.14,
+    "export_kwh": 0.527,
+    "net_flow_kwh": 0.387,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 219.0,
+    "day": 10,
+    "hour_of_day": 3,
+    "import_kwh": 0.196,
+    "export_kwh": 0.791,
+    "net_flow_kwh": 0.595,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 220.0,
+    "day": 10,
+    "hour_of_day": 4,
+    "import_kwh": 0.19,
+    "export_kwh": 1.795,
+    "net_flow_kwh": 1.605,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 221.0,
+    "day": 10,
+    "hour_of_day": 5,
+    "import_kwh": 0.256,
+    "export_kwh": 2.57,
+    "net_flow_kwh": 2.314,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 222.0,
+    "day": 10,
+    "hour_of_day": 6,
+    "import_kwh": 0.859,
+    "export_kwh": 4.534,
+    "net_flow_kwh": 3.675,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 223.0,
+    "day": 10,
+    "hour_of_day": 7,
+    "import_kwh": 0.047,
+    "export_kwh": 13.831,
+    "net_flow_kwh": 13.784,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 224.0,
+    "day": 10,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 13.951,
+    "net_flow_kwh": 13.951,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 225.0,
+    "day": 10,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 10.102,
+    "net_flow_kwh": 10.102,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 226.0,
+    "day": 10,
+    "hour_of_day": 10,
+    "import_kwh": 2.632,
+    "export_kwh": 5.713,
+    "net_flow_kwh": 3.081,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 227.0,
+    "day": 10,
+    "hour_of_day": 11,
+    "import_kwh": 0.634,
+    "export_kwh": 2.112,
+    "net_flow_kwh": 1.478,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 228.0,
+    "day": 10,
+    "hour_of_day": 12,
+    "import_kwh": 1.772,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.772,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 229.0,
+    "day": 10,
+    "hour_of_day": 13,
+    "import_kwh": 1.562,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.562,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 230.0,
+    "day": 10,
+    "hour_of_day": 14,
+    "import_kwh": 4.402,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.402,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 231.0,
+    "day": 10,
+    "hour_of_day": 15,
+    "import_kwh": 1.969,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.969,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 232.0,
+    "day": 10,
+    "hour_of_day": 16,
+    "import_kwh": 1.551,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.551,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 233.0,
+    "day": 10,
+    "hour_of_day": 17,
+    "import_kwh": 2.083,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.083,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 234.0,
+    "day": 10,
+    "hour_of_day": 18,
+    "import_kwh": 16.07,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.07,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 235.0,
+    "day": 10,
+    "hour_of_day": 19,
+    "import_kwh": 9.04,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -9.04,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 236.0,
+    "day": 10,
+    "hour_of_day": 20,
+    "import_kwh": 17.282,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.282,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 237.0,
+    "day": 10,
+    "hour_of_day": 21,
+    "import_kwh": 17.513,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.513,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 238.0,
+    "day": 10,
+    "hour_of_day": 22,
+    "import_kwh": 3.608,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.608,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 239.0,
+    "day": 10,
+    "hour_of_day": 23,
+    "import_kwh": 8.391,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.391,
+    "cloud_coverage": 0.233
+  },
+  {
+    "hour": 240.0,
+    "day": 11,
+    "hour_of_day": 0,
+    "import_kwh": 6.754,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.754,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 241.0,
+    "day": 11,
+    "hour_of_day": 1,
+    "import_kwh": 1.14,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.14,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 242.0,
+    "day": 11,
+    "hour_of_day": 2,
+    "import_kwh": 0.188,
+    "export_kwh": 1.265,
+    "net_flow_kwh": 1.077,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 243.0,
+    "day": 11,
+    "hour_of_day": 3,
+    "import_kwh": 1.691,
+    "export_kwh": 0.289,
+    "net_flow_kwh": -1.402,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 244.0,
+    "day": 11,
+    "hour_of_day": 4,
+    "import_kwh": 0.208,
+    "export_kwh": 5.812,
+    "net_flow_kwh": 5.604,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 245.0,
+    "day": 11,
+    "hour_of_day": 5,
+    "import_kwh": 0.063,
+    "export_kwh": 9.958,
+    "net_flow_kwh": 9.895,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 246.0,
+    "day": 11,
+    "hour_of_day": 6,
+    "import_kwh": 1.405,
+    "export_kwh": 11.372,
+    "net_flow_kwh": 9.967,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 247.0,
+    "day": 11,
+    "hour_of_day": 7,
+    "import_kwh": 0.0,
+    "export_kwh": 18.96,
+    "net_flow_kwh": 18.96,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 248.0,
+    "day": 11,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 16.656,
+    "net_flow_kwh": 16.656,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 249.0,
+    "day": 11,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 15.574,
+    "net_flow_kwh": 15.574,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 250.0,
+    "day": 11,
+    "hour_of_day": 10,
+    "import_kwh": 0.0,
+    "export_kwh": 11.495,
+    "net_flow_kwh": 11.495,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 251.0,
+    "day": 11,
+    "hour_of_day": 11,
+    "import_kwh": 0.277,
+    "export_kwh": 3.344,
+    "net_flow_kwh": 3.067,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 252.0,
+    "day": 11,
+    "hour_of_day": 12,
+    "import_kwh": 1.759,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.759,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 253.0,
+    "day": 11,
+    "hour_of_day": 13,
+    "import_kwh": 1.697,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.697,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 254.0,
+    "day": 11,
+    "hour_of_day": 14,
+    "import_kwh": 1.555,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.555,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 255.0,
+    "day": 11,
+    "hour_of_day": 15,
+    "import_kwh": 1.79,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.79,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 256.0,
+    "day": 11,
+    "hour_of_day": 16,
+    "import_kwh": 1.885,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.885,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 257.0,
+    "day": 11,
+    "hour_of_day": 17,
+    "import_kwh": 1.698,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.698,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 258.0,
+    "day": 11,
+    "hour_of_day": 18,
+    "import_kwh": 12.49,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.49,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 259.0,
+    "day": 11,
+    "hour_of_day": 19,
+    "import_kwh": 14.513,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.513,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 260.0,
+    "day": 11,
+    "hour_of_day": 20,
+    "import_kwh": 10.31,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.31,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 261.0,
+    "day": 11,
+    "hour_of_day": 21,
+    "import_kwh": 17.879,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.879,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 262.0,
+    "day": 11,
+    "hour_of_day": 22,
+    "import_kwh": 5.188,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.188,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 263.0,
+    "day": 11,
+    "hour_of_day": 23,
+    "import_kwh": 7.781,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.781,
+    "cloud_coverage": 0.004
+  },
+  {
+    "hour": 264.0,
+    "day": 12,
+    "hour_of_day": 0,
+    "import_kwh": 6.665,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.665,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 265.0,
+    "day": 12,
+    "hour_of_day": 1,
+    "import_kwh": 1.923,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.923,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 266.0,
+    "day": 12,
+    "hour_of_day": 2,
+    "import_kwh": 1.13,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.13,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 267.0,
+    "day": 12,
+    "hour_of_day": 3,
+    "import_kwh": 4.24,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.24,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 268.0,
+    "day": 12,
+    "hour_of_day": 4,
+    "import_kwh": 0.31,
+    "export_kwh": 0.038,
+    "net_flow_kwh": -0.272,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 269.0,
+    "day": 12,
+    "hour_of_day": 5,
+    "import_kwh": 0.151,
+    "export_kwh": 0.215,
+    "net_flow_kwh": 0.064,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 270.0,
+    "day": 12,
+    "hour_of_day": 6,
+    "import_kwh": 1.156,
+    "export_kwh": 0.229,
+    "net_flow_kwh": -0.927,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 271.0,
+    "day": 12,
+    "hour_of_day": 7,
+    "import_kwh": 0.263,
+    "export_kwh": 0.132,
+    "net_flow_kwh": -0.131,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 272.0,
+    "day": 12,
+    "hour_of_day": 8,
+    "import_kwh": 0.282,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.282,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 273.0,
+    "day": 12,
+    "hour_of_day": 9,
+    "import_kwh": 0.487,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.487,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 274.0,
+    "day": 12,
+    "hour_of_day": 10,
+    "import_kwh": 1.031,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.031,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 275.0,
+    "day": 12,
+    "hour_of_day": 11,
+    "import_kwh": 1.533,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.533,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 276.0,
+    "day": 12,
+    "hour_of_day": 12,
+    "import_kwh": 6.627,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.627,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 277.0,
+    "day": 12,
+    "hour_of_day": 13,
+    "import_kwh": 2.745,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.745,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 278.0,
+    "day": 12,
+    "hour_of_day": 14,
+    "import_kwh": 4.964,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.964,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 279.0,
+    "day": 12,
+    "hour_of_day": 15,
+    "import_kwh": 3.15,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.15,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 280.0,
+    "day": 12,
+    "hour_of_day": 16,
+    "import_kwh": 5.759,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.759,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 281.0,
+    "day": 12,
+    "hour_of_day": 17,
+    "import_kwh": 3.268,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.268,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 282.0,
+    "day": 12,
+    "hour_of_day": 18,
+    "import_kwh": 20.142,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.142,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 283.0,
+    "day": 12,
+    "hour_of_day": 19,
+    "import_kwh": 24.705,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.705,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 284.0,
+    "day": 12,
+    "hour_of_day": 20,
+    "import_kwh": 20.296,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.296,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 285.0,
+    "day": 12,
+    "hour_of_day": 21,
+    "import_kwh": 12.752,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.752,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 286.0,
+    "day": 12,
+    "hour_of_day": 22,
+    "import_kwh": 3.414,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.414,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 287.0,
+    "day": 12,
+    "hour_of_day": 23,
+    "import_kwh": 6.757,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.757,
+    "cloud_coverage": 0.697
+  },
+  {
+    "hour": 288.0,
+    "day": 13,
+    "hour_of_day": 0,
+    "import_kwh": 3.337,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.337,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 289.0,
+    "day": 13,
+    "hour_of_day": 1,
+    "import_kwh": 6.092,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.092,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 290.0,
+    "day": 13,
+    "hour_of_day": 2,
+    "import_kwh": 2.531,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.531,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 291.0,
+    "day": 13,
+    "hour_of_day": 3,
+    "import_kwh": 2.913,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.913,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 292.0,
+    "day": 13,
+    "hour_of_day": 4,
+    "import_kwh": 0.675,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.675,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 293.0,
+    "day": 13,
+    "hour_of_day": 5,
+    "import_kwh": 0.489,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.489,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 294.0,
+    "day": 13,
+    "hour_of_day": 6,
+    "import_kwh": 4.328,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.328,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 295.0,
+    "day": 13,
+    "hour_of_day": 7,
+    "import_kwh": 0.484,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.484,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 296.0,
+    "day": 13,
+    "hour_of_day": 8,
+    "import_kwh": 1.667,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.667,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 297.0,
+    "day": 13,
+    "hour_of_day": 9,
+    "import_kwh": 4.553,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.553,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 298.0,
+    "day": 13,
+    "hour_of_day": 10,
+    "import_kwh": 3.943,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.943,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 299.0,
+    "day": 13,
+    "hour_of_day": 11,
+    "import_kwh": 2.184,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.184,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 300.0,
+    "day": 13,
+    "hour_of_day": 12,
+    "import_kwh": 6.588,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.588,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 301.0,
+    "day": 13,
+    "hour_of_day": 13,
+    "import_kwh": 2.429,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.429,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 302.0,
+    "day": 13,
+    "hour_of_day": 14,
+    "import_kwh": 3.18,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.18,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 303.0,
+    "day": 13,
+    "hour_of_day": 15,
+    "import_kwh": 5.348,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.348,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 304.0,
+    "day": 13,
+    "hour_of_day": 16,
+    "import_kwh": 5.946,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.946,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 305.0,
+    "day": 13,
+    "hour_of_day": 17,
+    "import_kwh": 4.682,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.682,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 306.0,
+    "day": 13,
+    "hour_of_day": 18,
+    "import_kwh": 20.239,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.239,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 307.0,
+    "day": 13,
+    "hour_of_day": 19,
+    "import_kwh": 17.948,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.948,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 308.0,
+    "day": 13,
+    "hour_of_day": 20,
+    "import_kwh": 17.773,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.773,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 309.0,
+    "day": 13,
+    "hour_of_day": 21,
+    "import_kwh": 13.609,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.609,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 310.0,
+    "day": 13,
+    "hour_of_day": 22,
+    "import_kwh": 4.145,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.145,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 311.0,
+    "day": 13,
+    "hour_of_day": 23,
+    "import_kwh": 4.618,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.618,
+    "cloud_coverage": 0.792
+  },
+  {
+    "hour": 312.0,
+    "day": 14,
+    "hour_of_day": 0,
+    "import_kwh": 4.415,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.415,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 313.0,
+    "day": 14,
+    "hour_of_day": 1,
+    "import_kwh": 2.78,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.78,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 314.0,
+    "day": 14,
+    "hour_of_day": 2,
+    "import_kwh": 1.92,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.92,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 315.0,
+    "day": 14,
+    "hour_of_day": 3,
+    "import_kwh": 0.274,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.274,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 316.0,
+    "day": 14,
+    "hour_of_day": 4,
+    "import_kwh": 0.18,
+    "export_kwh": 0.024,
+    "net_flow_kwh": -0.156,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 317.0,
+    "day": 14,
+    "hour_of_day": 5,
+    "import_kwh": 1.862,
+    "export_kwh": 0.105,
+    "net_flow_kwh": -1.757,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 318.0,
+    "day": 14,
+    "hour_of_day": 6,
+    "import_kwh": 3.431,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.431,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 319.0,
+    "day": 14,
+    "hour_of_day": 7,
+    "import_kwh": 0.169,
+    "export_kwh": 0.259,
+    "net_flow_kwh": 0.09,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 320.0,
+    "day": 14,
+    "hour_of_day": 8,
+    "import_kwh": 2.142,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.142,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 321.0,
+    "day": 14,
+    "hour_of_day": 9,
+    "import_kwh": 0.544,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.544,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 322.0,
+    "day": 14,
+    "hour_of_day": 10,
+    "import_kwh": 1.984,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.984,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 323.0,
+    "day": 14,
+    "hour_of_day": 11,
+    "import_kwh": 2.019,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.019,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 324.0,
+    "day": 14,
+    "hour_of_day": 12,
+    "import_kwh": 6.827,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.827,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 325.0,
+    "day": 14,
+    "hour_of_day": 13,
+    "import_kwh": 2.495,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.495,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 326.0,
+    "day": 14,
+    "hour_of_day": 14,
+    "import_kwh": 2.425,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.425,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 327.0,
+    "day": 14,
+    "hour_of_day": 15,
+    "import_kwh": 3.083,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.083,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 328.0,
+    "day": 14,
+    "hour_of_day": 16,
+    "import_kwh": 5.945,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.945,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 329.0,
+    "day": 14,
+    "hour_of_day": 17,
+    "import_kwh": 3.179,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.179,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 330.0,
+    "day": 14,
+    "hour_of_day": 18,
+    "import_kwh": 25.956,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -25.956,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 331.0,
+    "day": 14,
+    "hour_of_day": 19,
+    "import_kwh": 20.862,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.862,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 332.0,
+    "day": 14,
+    "hour_of_day": 20,
+    "import_kwh": 17.784,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.784,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 333.0,
+    "day": 14,
+    "hour_of_day": 21,
+    "import_kwh": 18.879,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -18.879,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 334.0,
+    "day": 14,
+    "hour_of_day": 22,
+    "import_kwh": 5.729,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.729,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 335.0,
+    "day": 14,
+    "hour_of_day": 23,
+    "import_kwh": 8.771,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.771,
+    "cloud_coverage": 0.676
+  },
+  {
+    "hour": 336.0,
+    "day": 15,
+    "hour_of_day": 0,
+    "import_kwh": 3.535,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.535,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 337.0,
+    "day": 15,
+    "hour_of_day": 1,
+    "import_kwh": 6.987,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.987,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 338.0,
+    "day": 15,
+    "hour_of_day": 2,
+    "import_kwh": 8.149,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.149,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 339.0,
+    "day": 15,
+    "hour_of_day": 3,
+    "import_kwh": 1.766,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.766,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 340.0,
+    "day": 15,
+    "hour_of_day": 4,
+    "import_kwh": 2.995,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.995,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 341.0,
+    "day": 15,
+    "hour_of_day": 5,
+    "import_kwh": 1.716,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.716,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 342.0,
+    "day": 15,
+    "hour_of_day": 6,
+    "import_kwh": 1.346,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.346,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 343.0,
+    "day": 15,
+    "hour_of_day": 7,
+    "import_kwh": 5.485,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.485,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 344.0,
+    "day": 15,
+    "hour_of_day": 8,
+    "import_kwh": 1.593,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.593,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 345.0,
+    "day": 15,
+    "hour_of_day": 9,
+    "import_kwh": 6.024,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.024,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 346.0,
+    "day": 15,
+    "hour_of_day": 10,
+    "import_kwh": 5.368,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.368,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 347.0,
+    "day": 15,
+    "hour_of_day": 11,
+    "import_kwh": 2.978,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.978,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 348.0,
+    "day": 15,
+    "hour_of_day": 12,
+    "import_kwh": 6.244,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.244,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 349.0,
+    "day": 15,
+    "hour_of_day": 13,
+    "import_kwh": 3.837,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.837,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 350.0,
+    "day": 15,
+    "hour_of_day": 14,
+    "import_kwh": 3.571,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.571,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 351.0,
+    "day": 15,
+    "hour_of_day": 15,
+    "import_kwh": 3.611,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.611,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 352.0,
+    "day": 15,
+    "hour_of_day": 16,
+    "import_kwh": 4.085,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.085,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 353.0,
+    "day": 15,
+    "hour_of_day": 17,
+    "import_kwh": 5.536,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.536,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 354.0,
+    "day": 15,
+    "hour_of_day": 18,
+    "import_kwh": 23.874,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -23.874,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 355.0,
+    "day": 15,
+    "hour_of_day": 19,
+    "import_kwh": 22.292,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -22.292,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 356.0,
+    "day": 15,
+    "hour_of_day": 20,
+    "import_kwh": 14.404,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.404,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 357.0,
+    "day": 15,
+    "hour_of_day": 21,
+    "import_kwh": 21.475,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.475,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 358.0,
+    "day": 15,
+    "hour_of_day": 22,
+    "import_kwh": 6.944,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.944,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 359.0,
+    "day": 15,
+    "hour_of_day": 23,
+    "import_kwh": 4.429,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.429,
+    "cloud_coverage": 0.899
+  },
+  {
+    "hour": 360.0,
+    "day": 16,
+    "hour_of_day": 0,
+    "import_kwh": 8.155,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.155,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 361.0,
+    "day": 16,
+    "hour_of_day": 1,
+    "import_kwh": 0.736,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.736,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 362.0,
+    "day": 16,
+    "hour_of_day": 2,
+    "import_kwh": 0.301,
+    "export_kwh": 0.356,
+    "net_flow_kwh": 0.055,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 363.0,
+    "day": 16,
+    "hour_of_day": 3,
+    "import_kwh": 0.171,
+    "export_kwh": 1.119,
+    "net_flow_kwh": 0.948,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 364.0,
+    "day": 16,
+    "hour_of_day": 4,
+    "import_kwh": 0.346,
+    "export_kwh": 2.017,
+    "net_flow_kwh": 1.671,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 365.0,
+    "day": 16,
+    "hour_of_day": 5,
+    "import_kwh": 0.076,
+    "export_kwh": 1.743,
+    "net_flow_kwh": 1.667,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 366.0,
+    "day": 16,
+    "hour_of_day": 6,
+    "import_kwh": 0.085,
+    "export_kwh": 3.147,
+    "net_flow_kwh": 3.062,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 367.0,
+    "day": 16,
+    "hour_of_day": 7,
+    "import_kwh": 0.052,
+    "export_kwh": 11.522,
+    "net_flow_kwh": 11.47,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 368.0,
+    "day": 16,
+    "hour_of_day": 8,
+    "import_kwh": 0.038,
+    "export_kwh": 10.836,
+    "net_flow_kwh": 10.798,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 369.0,
+    "day": 16,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 11.058,
+    "net_flow_kwh": 11.058,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 370.0,
+    "day": 16,
+    "hour_of_day": 10,
+    "import_kwh": 0.006,
+    "export_kwh": 4.779,
+    "net_flow_kwh": 4.773,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 371.0,
+    "day": 16,
+    "hour_of_day": 11,
+    "import_kwh": 0.411,
+    "export_kwh": 2.192,
+    "net_flow_kwh": 1.781,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 372.0,
+    "day": 16,
+    "hour_of_day": 12,
+    "import_kwh": 1.851,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.851,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 373.0,
+    "day": 16,
+    "hour_of_day": 13,
+    "import_kwh": 2.029,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.029,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 374.0,
+    "day": 16,
+    "hour_of_day": 14,
+    "import_kwh": 1.788,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.788,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 375.0,
+    "day": 16,
+    "hour_of_day": 15,
+    "import_kwh": 5.764,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.764,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 376.0,
+    "day": 16,
+    "hour_of_day": 16,
+    "import_kwh": 1.613,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.613,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 377.0,
+    "day": 16,
+    "hour_of_day": 17,
+    "import_kwh": 1.577,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.577,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 378.0,
+    "day": 16,
+    "hour_of_day": 18,
+    "import_kwh": 7.437,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.437,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 379.0,
+    "day": 16,
+    "hour_of_day": 19,
+    "import_kwh": 20.003,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.003,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 380.0,
+    "day": 16,
+    "hour_of_day": 20,
+    "import_kwh": 22.842,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -22.842,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 381.0,
+    "day": 16,
+    "hour_of_day": 21,
+    "import_kwh": 15.35,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -15.35,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 382.0,
+    "day": 16,
+    "hour_of_day": 22,
+    "import_kwh": 6.372,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.372,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 383.0,
+    "day": 16,
+    "hour_of_day": 23,
+    "import_kwh": 4.031,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.031,
+    "cloud_coverage": 0.274
+  },
+  {
+    "hour": 384.0,
+    "day": 17,
+    "hour_of_day": 0,
+    "import_kwh": 7.356,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.356,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 385.0,
+    "day": 17,
+    "hour_of_day": 1,
+    "import_kwh": 3.6,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.6,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 386.0,
+    "day": 17,
+    "hour_of_day": 2,
+    "import_kwh": 3.068,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.068,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 387.0,
+    "day": 17,
+    "hour_of_day": 3,
+    "import_kwh": 1.851,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.851,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 388.0,
+    "day": 17,
+    "hour_of_day": 4,
+    "import_kwh": 1.238,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.238,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 389.0,
+    "day": 17,
+    "hour_of_day": 5,
+    "import_kwh": 5.122,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.122,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 390.0,
+    "day": 17,
+    "hour_of_day": 6,
+    "import_kwh": 0.961,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.961,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 391.0,
+    "day": 17,
+    "hour_of_day": 7,
+    "import_kwh": 1.717,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.717,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 392.0,
+    "day": 17,
+    "hour_of_day": 8,
+    "import_kwh": 3.083,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.083,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 393.0,
+    "day": 17,
+    "hour_of_day": 9,
+    "import_kwh": 1.746,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.746,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 394.0,
+    "day": 17,
+    "hour_of_day": 10,
+    "import_kwh": 2.323,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.323,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 395.0,
+    "day": 17,
+    "hour_of_day": 11,
+    "import_kwh": 2.605,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.605,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 396.0,
+    "day": 17,
+    "hour_of_day": 12,
+    "import_kwh": 4.199,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.199,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 397.0,
+    "day": 17,
+    "hour_of_day": 13,
+    "import_kwh": 3.544,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.544,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 398.0,
+    "day": 17,
+    "hour_of_day": 14,
+    "import_kwh": 3.336,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.336,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 399.0,
+    "day": 17,
+    "hour_of_day": 15,
+    "import_kwh": 3.785,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.785,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 400.0,
+    "day": 17,
+    "hour_of_day": 16,
+    "import_kwh": 4.128,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.128,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 401.0,
+    "day": 17,
+    "hour_of_day": 17,
+    "import_kwh": 4.264,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.264,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 402.0,
+    "day": 17,
+    "hour_of_day": 18,
+    "import_kwh": 22.529,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -22.529,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 403.0,
+    "day": 17,
+    "hour_of_day": 19,
+    "import_kwh": 21.831,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.831,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 404.0,
+    "day": 17,
+    "hour_of_day": 20,
+    "import_kwh": 16.159,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.159,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 405.0,
+    "day": 17,
+    "hour_of_day": 21,
+    "import_kwh": 14.792,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.792,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 406.0,
+    "day": 17,
+    "hour_of_day": 22,
+    "import_kwh": 5.126,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.126,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 407.0,
+    "day": 17,
+    "hour_of_day": 23,
+    "import_kwh": 3.373,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.373,
+    "cloud_coverage": 0.869
+  },
+  {
+    "hour": 408.0,
+    "day": 18,
+    "hour_of_day": 0,
+    "import_kwh": 6.998,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.998,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 409.0,
+    "day": 18,
+    "hour_of_day": 1,
+    "import_kwh": 4.202,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.202,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 410.0,
+    "day": 18,
+    "hour_of_day": 2,
+    "import_kwh": 4.886,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.886,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 411.0,
+    "day": 18,
+    "hour_of_day": 3,
+    "import_kwh": 1.009,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.009,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 412.0,
+    "day": 18,
+    "hour_of_day": 4,
+    "import_kwh": 0.553,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.553,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 413.0,
+    "day": 18,
+    "hour_of_day": 5,
+    "import_kwh": 1.491,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.491,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 414.0,
+    "day": 18,
+    "hour_of_day": 6,
+    "import_kwh": 0.234,
+    "export_kwh": 0.063,
+    "net_flow_kwh": -0.171,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 415.0,
+    "day": 18,
+    "hour_of_day": 7,
+    "import_kwh": 4.433,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.433,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 416.0,
+    "day": 18,
+    "hour_of_day": 8,
+    "import_kwh": 0.589,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.589,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 417.0,
+    "day": 18,
+    "hour_of_day": 9,
+    "import_kwh": 2.698,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.698,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 418.0,
+    "day": 18,
+    "hour_of_day": 10,
+    "import_kwh": 2.807,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.807,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 419.0,
+    "day": 18,
+    "hour_of_day": 11,
+    "import_kwh": 1.656,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.656,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 420.0,
+    "day": 18,
+    "hour_of_day": 12,
+    "import_kwh": 3.862,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.862,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 421.0,
+    "day": 18,
+    "hour_of_day": 13,
+    "import_kwh": 2.801,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.801,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 422.0,
+    "day": 18,
+    "hour_of_day": 14,
+    "import_kwh": 6.063,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.063,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 423.0,
+    "day": 18,
+    "hour_of_day": 15,
+    "import_kwh": 4.767,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.767,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 424.0,
+    "day": 18,
+    "hour_of_day": 16,
+    "import_kwh": 3.091,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.091,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 425.0,
+    "day": 18,
+    "hour_of_day": 17,
+    "import_kwh": 5.618,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.618,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 426.0,
+    "day": 18,
+    "hour_of_day": 18,
+    "import_kwh": 22.155,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -22.155,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 427.0,
+    "day": 18,
+    "hour_of_day": 19,
+    "import_kwh": 21.28,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.28,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 428.0,
+    "day": 18,
+    "hour_of_day": 20,
+    "import_kwh": 16.364,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.364,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 429.0,
+    "day": 18,
+    "hour_of_day": 21,
+    "import_kwh": 21.779,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.779,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 430.0,
+    "day": 18,
+    "hour_of_day": 22,
+    "import_kwh": 4.259,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.259,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 431.0,
+    "day": 18,
+    "hour_of_day": 23,
+    "import_kwh": 5.865,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.865,
+    "cloud_coverage": 0.723
+  },
+  {
+    "hour": 432.0,
+    "day": 19,
+    "hour_of_day": 0,
+    "import_kwh": 5.577,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.577,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 433.0,
+    "day": 19,
+    "hour_of_day": 1,
+    "import_kwh": 2.484,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.484,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 434.0,
+    "day": 19,
+    "hour_of_day": 2,
+    "import_kwh": 0.437,
+    "export_kwh": 0.868,
+    "net_flow_kwh": 0.431,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 435.0,
+    "day": 19,
+    "hour_of_day": 3,
+    "import_kwh": 2.229,
+    "export_kwh": 0.154,
+    "net_flow_kwh": -2.075,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 436.0,
+    "day": 19,
+    "hour_of_day": 4,
+    "import_kwh": 0.078,
+    "export_kwh": 2.993,
+    "net_flow_kwh": 2.915,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 437.0,
+    "day": 19,
+    "hour_of_day": 5,
+    "import_kwh": 0.414,
+    "export_kwh": 6.607,
+    "net_flow_kwh": 6.193,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 438.0,
+    "day": 19,
+    "hour_of_day": 6,
+    "import_kwh": 0.1,
+    "export_kwh": 9.514,
+    "net_flow_kwh": 9.414,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 439.0,
+    "day": 19,
+    "hour_of_day": 7,
+    "import_kwh": 0.0,
+    "export_kwh": 14.913,
+    "net_flow_kwh": 14.913,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 440.0,
+    "day": 19,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 16.41,
+    "net_flow_kwh": 16.41,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 441.0,
+    "day": 19,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 15.382,
+    "net_flow_kwh": 15.382,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 442.0,
+    "day": 19,
+    "hour_of_day": 10,
+    "import_kwh": 0.0,
+    "export_kwh": 10.001,
+    "net_flow_kwh": 10.001,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 443.0,
+    "day": 19,
+    "hour_of_day": 11,
+    "import_kwh": 2.515,
+    "export_kwh": 1.83,
+    "net_flow_kwh": -0.685,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 444.0,
+    "day": 19,
+    "hour_of_day": 12,
+    "import_kwh": 4.046,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.046,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 445.0,
+    "day": 19,
+    "hour_of_day": 13,
+    "import_kwh": 4.033,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.033,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 446.0,
+    "day": 19,
+    "hour_of_day": 14,
+    "import_kwh": 1.863,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.863,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 447.0,
+    "day": 19,
+    "hour_of_day": 15,
+    "import_kwh": 1.779,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.779,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 448.0,
+    "day": 19,
+    "hour_of_day": 16,
+    "import_kwh": 2.125,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.125,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 449.0,
+    "day": 19,
+    "hour_of_day": 17,
+    "import_kwh": 1.745,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.745,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 450.0,
+    "day": 19,
+    "hour_of_day": 18,
+    "import_kwh": 7.402,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.402,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 451.0,
+    "day": 19,
+    "hour_of_day": 19,
+    "import_kwh": 10.091,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.091,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 452.0,
+    "day": 19,
+    "hour_of_day": 20,
+    "import_kwh": 17.928,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -17.928,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 453.0,
+    "day": 19,
+    "hour_of_day": 21,
+    "import_kwh": 13.107,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.107,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 454.0,
+    "day": 19,
+    "hour_of_day": 22,
+    "import_kwh": 4.048,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.048,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 455.0,
+    "day": 19,
+    "hour_of_day": 23,
+    "import_kwh": 3.571,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.571,
+    "cloud_coverage": 0.092
+  },
+  {
+    "hour": 456.0,
+    "day": 20,
+    "hour_of_day": 0,
+    "import_kwh": 3.234,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.234,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 457.0,
+    "day": 20,
+    "hour_of_day": 1,
+    "import_kwh": 3.158,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.158,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 458.0,
+    "day": 20,
+    "hour_of_day": 2,
+    "import_kwh": 0.295,
+    "export_kwh": 0.491,
+    "net_flow_kwh": 0.196,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 459.0,
+    "day": 20,
+    "hour_of_day": 3,
+    "import_kwh": 0.145,
+    "export_kwh": 1.092,
+    "net_flow_kwh": 0.947,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 460.0,
+    "day": 20,
+    "hour_of_day": 4,
+    "import_kwh": 2.509,
+    "export_kwh": 0.358,
+    "net_flow_kwh": -2.151,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 461.0,
+    "day": 20,
+    "hour_of_day": 5,
+    "import_kwh": 0.1,
+    "export_kwh": 5.877,
+    "net_flow_kwh": 5.777,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 462.0,
+    "day": 20,
+    "hour_of_day": 6,
+    "import_kwh": 0.144,
+    "export_kwh": 8.861,
+    "net_flow_kwh": 8.717,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 463.0,
+    "day": 20,
+    "hour_of_day": 7,
+    "import_kwh": 0.067,
+    "export_kwh": 8.761,
+    "net_flow_kwh": 8.694,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 464.0,
+    "day": 20,
+    "hour_of_day": 8,
+    "import_kwh": 0.121,
+    "export_kwh": 10.555,
+    "net_flow_kwh": 10.434,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 465.0,
+    "day": 20,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 9.099,
+    "net_flow_kwh": 9.099,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 466.0,
+    "day": 20,
+    "hour_of_day": 10,
+    "import_kwh": 0.077,
+    "export_kwh": 5.696,
+    "net_flow_kwh": 5.619,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 467.0,
+    "day": 20,
+    "hour_of_day": 11,
+    "import_kwh": 1.615,
+    "export_kwh": 1.942,
+    "net_flow_kwh": 0.327,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 468.0,
+    "day": 20,
+    "hour_of_day": 12,
+    "import_kwh": 1.628,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.628,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 469.0,
+    "day": 20,
+    "hour_of_day": 13,
+    "import_kwh": 1.641,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.641,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 470.0,
+    "day": 20,
+    "hour_of_day": 14,
+    "import_kwh": 1.699,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.699,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 471.0,
+    "day": 20,
+    "hour_of_day": 15,
+    "import_kwh": 1.687,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.687,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 472.0,
+    "day": 20,
+    "hour_of_day": 16,
+    "import_kwh": 1.96,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.96,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 473.0,
+    "day": 20,
+    "hour_of_day": 17,
+    "import_kwh": 1.85,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.85,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 474.0,
+    "day": 20,
+    "hour_of_day": 18,
+    "import_kwh": 9.655,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -9.655,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 475.0,
+    "day": 20,
+    "hour_of_day": 19,
+    "import_kwh": 10.833,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.833,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 476.0,
+    "day": 20,
+    "hour_of_day": 20,
+    "import_kwh": 13.906,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.906,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 477.0,
+    "day": 20,
+    "hour_of_day": 21,
+    "import_kwh": 20.612,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.612,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 478.0,
+    "day": 20,
+    "hour_of_day": 22,
+    "import_kwh": 3.084,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.084,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 479.0,
+    "day": 20,
+    "hour_of_day": 23,
+    "import_kwh": 5.0,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.0,
+    "cloud_coverage": 0.294
+  },
+  {
+    "hour": 480.0,
+    "day": 21,
+    "hour_of_day": 0,
+    "import_kwh": 5.022,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.022,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 481.0,
+    "day": 21,
+    "hour_of_day": 1,
+    "import_kwh": 2.786,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.786,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 482.0,
+    "day": 21,
+    "hour_of_day": 2,
+    "import_kwh": 2.461,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.461,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 483.0,
+    "day": 21,
+    "hour_of_day": 3,
+    "import_kwh": 4.819,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.819,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 484.0,
+    "day": 21,
+    "hour_of_day": 4,
+    "import_kwh": 0.959,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.959,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 485.0,
+    "day": 21,
+    "hour_of_day": 5,
+    "import_kwh": 1.543,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.543,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 486.0,
+    "day": 21,
+    "hour_of_day": 6,
+    "import_kwh": 1.119,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.119,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 487.0,
+    "day": 21,
+    "hour_of_day": 7,
+    "import_kwh": 0.781,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.781,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 488.0,
+    "day": 21,
+    "hour_of_day": 8,
+    "import_kwh": 1.004,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.004,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 489.0,
+    "day": 21,
+    "hour_of_day": 9,
+    "import_kwh": 1.277,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.277,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 490.0,
+    "day": 21,
+    "hour_of_day": 10,
+    "import_kwh": 2.838,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.838,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 491.0,
+    "day": 21,
+    "hour_of_day": 11,
+    "import_kwh": 3.283,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.283,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 492.0,
+    "day": 21,
+    "hour_of_day": 12,
+    "import_kwh": 5.194,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.194,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 493.0,
+    "day": 21,
+    "hour_of_day": 13,
+    "import_kwh": 3.112,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.112,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 494.0,
+    "day": 21,
+    "hour_of_day": 14,
+    "import_kwh": 7.122,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.122,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 495.0,
+    "day": 21,
+    "hour_of_day": 15,
+    "import_kwh": 3.694,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.694,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 496.0,
+    "day": 21,
+    "hour_of_day": 16,
+    "import_kwh": 3.335,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.335,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 497.0,
+    "day": 21,
+    "hour_of_day": 17,
+    "import_kwh": 3.568,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.568,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 498.0,
+    "day": 21,
+    "hour_of_day": 18,
+    "import_kwh": 21.338,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.338,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 499.0,
+    "day": 21,
+    "hour_of_day": 19,
+    "import_kwh": 14.434,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -14.434,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 500.0,
+    "day": 21,
+    "hour_of_day": 20,
+    "import_kwh": 29.387,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -29.387,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 501.0,
+    "day": 21,
+    "hour_of_day": 21,
+    "import_kwh": 16.191,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.191,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 502.0,
+    "day": 21,
+    "hour_of_day": 22,
+    "import_kwh": 3.436,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.436,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 503.0,
+    "day": 21,
+    "hour_of_day": 23,
+    "import_kwh": 5.376,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.376,
+    "cloud_coverage": 0.831
+  },
+  {
+    "hour": 504.0,
+    "day": 22,
+    "hour_of_day": 0,
+    "import_kwh": 4.667,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.667,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 505.0,
+    "day": 22,
+    "hour_of_day": 1,
+    "import_kwh": 0.59,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.59,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 506.0,
+    "day": 22,
+    "hour_of_day": 2,
+    "import_kwh": 0.293,
+    "export_kwh": 0.985,
+    "net_flow_kwh": 0.692,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 507.0,
+    "day": 22,
+    "hour_of_day": 3,
+    "import_kwh": 0.099,
+    "export_kwh": 0.966,
+    "net_flow_kwh": 0.867,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 508.0,
+    "day": 22,
+    "hour_of_day": 4,
+    "import_kwh": 0.102,
+    "export_kwh": 5.815,
+    "net_flow_kwh": 5.713,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 509.0,
+    "day": 22,
+    "hour_of_day": 5,
+    "import_kwh": 0.058,
+    "export_kwh": 6.432,
+    "net_flow_kwh": 6.374,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 510.0,
+    "day": 22,
+    "hour_of_day": 6,
+    "import_kwh": 0.022,
+    "export_kwh": 13.895,
+    "net_flow_kwh": 13.873,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 511.0,
+    "day": 22,
+    "hour_of_day": 7,
+    "import_kwh": 0.0,
+    "export_kwh": 19.894,
+    "net_flow_kwh": 19.894,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 512.0,
+    "day": 22,
+    "hour_of_day": 8,
+    "import_kwh": 0.088,
+    "export_kwh": 15.879,
+    "net_flow_kwh": 15.791,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 513.0,
+    "day": 22,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 12.744,
+    "net_flow_kwh": 12.744,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 514.0,
+    "day": 22,
+    "hour_of_day": 10,
+    "import_kwh": 2.759,
+    "export_kwh": 9.546,
+    "net_flow_kwh": 6.787,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 515.0,
+    "day": 22,
+    "hour_of_day": 11,
+    "import_kwh": 0.144,
+    "export_kwh": 3.698,
+    "net_flow_kwh": 3.554,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 516.0,
+    "day": 22,
+    "hour_of_day": 12,
+    "import_kwh": 1.529,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.529,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 517.0,
+    "day": 22,
+    "hour_of_day": 13,
+    "import_kwh": 1.894,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.894,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 518.0,
+    "day": 22,
+    "hour_of_day": 14,
+    "import_kwh": 1.761,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.761,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 519.0,
+    "day": 22,
+    "hour_of_day": 15,
+    "import_kwh": 1.721,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.721,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 520.0,
+    "day": 22,
+    "hour_of_day": 16,
+    "import_kwh": 1.813,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.813,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 521.0,
+    "day": 22,
+    "hour_of_day": 17,
+    "import_kwh": 1.674,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.674,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 522.0,
+    "day": 22,
+    "hour_of_day": 18,
+    "import_kwh": 6.244,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.244,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 523.0,
+    "day": 22,
+    "hour_of_day": 19,
+    "import_kwh": 21.35,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.35,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 524.0,
+    "day": 22,
+    "hour_of_day": 20,
+    "import_kwh": 24.563,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.563,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 525.0,
+    "day": 22,
+    "hour_of_day": 21,
+    "import_kwh": 23.735,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -23.735,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 526.0,
+    "day": 22,
+    "hour_of_day": 22,
+    "import_kwh": 6.867,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.867,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 527.0,
+    "day": 22,
+    "hour_of_day": 23,
+    "import_kwh": 3.202,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.202,
+    "cloud_coverage": 0.057
+  },
+  {
+    "hour": 528.0,
+    "day": 23,
+    "hour_of_day": 0,
+    "import_kwh": 3.234,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.234,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 529.0,
+    "day": 23,
+    "hour_of_day": 1,
+    "import_kwh": 3.369,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.369,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 530.0,
+    "day": 23,
+    "hour_of_day": 2,
+    "import_kwh": 2.539,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.539,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 531.0,
+    "day": 23,
+    "hour_of_day": 3,
+    "import_kwh": 1.691,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.691,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 532.0,
+    "day": 23,
+    "hour_of_day": 4,
+    "import_kwh": 2.216,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.216,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 533.0,
+    "day": 23,
+    "hour_of_day": 5,
+    "import_kwh": 2.508,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.508,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 534.0,
+    "day": 23,
+    "hour_of_day": 6,
+    "import_kwh": 2.025,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.025,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 535.0,
+    "day": 23,
+    "hour_of_day": 7,
+    "import_kwh": 4.754,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.754,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 536.0,
+    "day": 23,
+    "hour_of_day": 8,
+    "import_kwh": 3.08,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.08,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 537.0,
+    "day": 23,
+    "hour_of_day": 9,
+    "import_kwh": 3.665,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.665,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 538.0,
+    "day": 23,
+    "hour_of_day": 10,
+    "import_kwh": 2.832,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.832,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 539.0,
+    "day": 23,
+    "hour_of_day": 11,
+    "import_kwh": 3.825,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.825,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 540.0,
+    "day": 23,
+    "hour_of_day": 12,
+    "import_kwh": 4.815,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.815,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 541.0,
+    "day": 23,
+    "hour_of_day": 13,
+    "import_kwh": 4.192,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.192,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 542.0,
+    "day": 23,
+    "hour_of_day": 14,
+    "import_kwh": 3.459,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.459,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 543.0,
+    "day": 23,
+    "hour_of_day": 15,
+    "import_kwh": 3.421,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.421,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 544.0,
+    "day": 23,
+    "hour_of_day": 16,
+    "import_kwh": 5.453,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.453,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 545.0,
+    "day": 23,
+    "hour_of_day": 17,
+    "import_kwh": 3.455,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.455,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 546.0,
+    "day": 23,
+    "hour_of_day": 18,
+    "import_kwh": 19.207,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.207,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 547.0,
+    "day": 23,
+    "hour_of_day": 19,
+    "import_kwh": 10.259,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.259,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 548.0,
+    "day": 23,
+    "hour_of_day": 20,
+    "import_kwh": 21.438,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.438,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 549.0,
+    "day": 23,
+    "hour_of_day": 21,
+    "import_kwh": 18.08,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -18.08,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 550.0,
+    "day": 23,
+    "hour_of_day": 22,
+    "import_kwh": 7.762,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.762,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 551.0,
+    "day": 23,
+    "hour_of_day": 23,
+    "import_kwh": 5.182,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.182,
+    "cloud_coverage": 0.863
+  },
+  {
+    "hour": 552.0,
+    "day": 24,
+    "hour_of_day": 0,
+    "import_kwh": 4.062,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.062,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 553.0,
+    "day": 24,
+    "hour_of_day": 1,
+    "import_kwh": 3.847,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.847,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 554.0,
+    "day": 24,
+    "hour_of_day": 2,
+    "import_kwh": 0.545,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.545,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 555.0,
+    "day": 24,
+    "hour_of_day": 3,
+    "import_kwh": 0.373,
+    "export_kwh": 0.162,
+    "net_flow_kwh": -0.211,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 556.0,
+    "day": 24,
+    "hour_of_day": 4,
+    "import_kwh": 3.022,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.022,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 557.0,
+    "day": 24,
+    "hour_of_day": 5,
+    "import_kwh": 0.196,
+    "export_kwh": 0.77,
+    "net_flow_kwh": 0.574,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 558.0,
+    "day": 24,
+    "hour_of_day": 6,
+    "import_kwh": 0.21,
+    "export_kwh": 0.698,
+    "net_flow_kwh": 0.488,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 559.0,
+    "day": 24,
+    "hour_of_day": 7,
+    "import_kwh": 0.171,
+    "export_kwh": 0.831,
+    "net_flow_kwh": 0.66,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 560.0,
+    "day": 24,
+    "hour_of_day": 8,
+    "import_kwh": 0.172,
+    "export_kwh": 0.303,
+    "net_flow_kwh": 0.131,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 561.0,
+    "day": 24,
+    "hour_of_day": 9,
+    "import_kwh": 3.238,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.238,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 562.0,
+    "day": 24,
+    "hour_of_day": 10,
+    "import_kwh": 0.637,
+    "export_kwh": 0.19,
+    "net_flow_kwh": -0.447,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 563.0,
+    "day": 24,
+    "hour_of_day": 11,
+    "import_kwh": 0.929,
+    "export_kwh": 0.371,
+    "net_flow_kwh": -0.558,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 564.0,
+    "day": 24,
+    "hour_of_day": 12,
+    "import_kwh": 1.762,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.762,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 565.0,
+    "day": 24,
+    "hour_of_day": 13,
+    "import_kwh": 4.349,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.349,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 566.0,
+    "day": 24,
+    "hour_of_day": 14,
+    "import_kwh": 1.671,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.671,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 567.0,
+    "day": 24,
+    "hour_of_day": 15,
+    "import_kwh": 1.807,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.807,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 568.0,
+    "day": 24,
+    "hour_of_day": 16,
+    "import_kwh": 2.068,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.068,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 569.0,
+    "day": 24,
+    "hour_of_day": 17,
+    "import_kwh": 2.463,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.463,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 570.0,
+    "day": 24,
+    "hour_of_day": 18,
+    "import_kwh": 15.557,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -15.557,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 571.0,
+    "day": 24,
+    "hour_of_day": 19,
+    "import_kwh": 13.216,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.216,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 572.0,
+    "day": 24,
+    "hour_of_day": 20,
+    "import_kwh": 11.11,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -11.11,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 573.0,
+    "day": 24,
+    "hour_of_day": 21,
+    "import_kwh": 20.084,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.084,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 574.0,
+    "day": 24,
+    "hour_of_day": 22,
+    "import_kwh": 3.467,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.467,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 575.0,
+    "day": 24,
+    "hour_of_day": 23,
+    "import_kwh": 3.604,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.604,
+    "cloud_coverage": 0.579
+  },
+  {
+    "hour": 576.0,
+    "day": 25,
+    "hour_of_day": 0,
+    "import_kwh": 3.71,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.71,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 577.0,
+    "day": 25,
+    "hour_of_day": 1,
+    "import_kwh": 2.687,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.687,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 578.0,
+    "day": 25,
+    "hour_of_day": 2,
+    "import_kwh": 2.345,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.345,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 579.0,
+    "day": 25,
+    "hour_of_day": 3,
+    "import_kwh": 2.106,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.106,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 580.0,
+    "day": 25,
+    "hour_of_day": 4,
+    "import_kwh": 3.04,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.04,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 581.0,
+    "day": 25,
+    "hour_of_day": 5,
+    "import_kwh": 1.048,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.048,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 582.0,
+    "day": 25,
+    "hour_of_day": 6,
+    "import_kwh": 1.396,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.396,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 583.0,
+    "day": 25,
+    "hour_of_day": 7,
+    "import_kwh": 1.805,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.805,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 584.0,
+    "day": 25,
+    "hour_of_day": 8,
+    "import_kwh": 2.098,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.098,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 585.0,
+    "day": 25,
+    "hour_of_day": 9,
+    "import_kwh": 0.6,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.6,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 586.0,
+    "day": 25,
+    "hour_of_day": 10,
+    "import_kwh": 2.209,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.209,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 587.0,
+    "day": 25,
+    "hour_of_day": 11,
+    "import_kwh": 3.103,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.103,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 588.0,
+    "day": 25,
+    "hour_of_day": 12,
+    "import_kwh": 2.883,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.883,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 589.0,
+    "day": 25,
+    "hour_of_day": 13,
+    "import_kwh": 3.193,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.193,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 590.0,
+    "day": 25,
+    "hour_of_day": 14,
+    "import_kwh": 5.552,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.552,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 591.0,
+    "day": 25,
+    "hour_of_day": 15,
+    "import_kwh": 7.995,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.995,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 592.0,
+    "day": 25,
+    "hour_of_day": 16,
+    "import_kwh": 3.795,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.795,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 593.0,
+    "day": 25,
+    "hour_of_day": 17,
+    "import_kwh": 7.892,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -7.892,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 594.0,
+    "day": 25,
+    "hour_of_day": 18,
+    "import_kwh": 18.106,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -18.106,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 595.0,
+    "day": 25,
+    "hour_of_day": 19,
+    "import_kwh": 12.116,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.116,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 596.0,
+    "day": 25,
+    "hour_of_day": 20,
+    "import_kwh": 24.426,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.426,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 597.0,
+    "day": 25,
+    "hour_of_day": 21,
+    "import_kwh": 8.673,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -8.673,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 598.0,
+    "day": 25,
+    "hour_of_day": 22,
+    "import_kwh": 11.823,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -11.823,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 599.0,
+    "day": 25,
+    "hour_of_day": 23,
+    "import_kwh": 4.311,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.311,
+    "cloud_coverage": 0.76
+  },
+  {
+    "hour": 600.0,
+    "day": 26,
+    "hour_of_day": 0,
+    "import_kwh": 3.603,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.603,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 601.0,
+    "day": 26,
+    "hour_of_day": 1,
+    "import_kwh": 2.007,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.007,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 602.0,
+    "day": 26,
+    "hour_of_day": 2,
+    "import_kwh": 0.502,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.502,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 603.0,
+    "day": 26,
+    "hour_of_day": 3,
+    "import_kwh": 0.391,
+    "export_kwh": 0.938,
+    "net_flow_kwh": 0.547,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 604.0,
+    "day": 26,
+    "hour_of_day": 4,
+    "import_kwh": 0.3,
+    "export_kwh": 1.753,
+    "net_flow_kwh": 1.453,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 605.0,
+    "day": 26,
+    "hour_of_day": 5,
+    "import_kwh": 0.199,
+    "export_kwh": 2.196,
+    "net_flow_kwh": 1.997,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 606.0,
+    "day": 26,
+    "hour_of_day": 6,
+    "import_kwh": 0.396,
+    "export_kwh": 4.371,
+    "net_flow_kwh": 3.975,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 607.0,
+    "day": 26,
+    "hour_of_day": 7,
+    "import_kwh": 1.292,
+    "export_kwh": 5.008,
+    "net_flow_kwh": 3.716,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 608.0,
+    "day": 26,
+    "hour_of_day": 8,
+    "import_kwh": 0.071,
+    "export_kwh": 9.516,
+    "net_flow_kwh": 9.445,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 609.0,
+    "day": 26,
+    "hour_of_day": 9,
+    "import_kwh": 0.07,
+    "export_kwh": 6.132,
+    "net_flow_kwh": 6.062,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 610.0,
+    "day": 26,
+    "hour_of_day": 10,
+    "import_kwh": 0.135,
+    "export_kwh": 4.327,
+    "net_flow_kwh": 4.192,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 611.0,
+    "day": 26,
+    "hour_of_day": 11,
+    "import_kwh": 0.794,
+    "export_kwh": 0.749,
+    "net_flow_kwh": -0.045,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 612.0,
+    "day": 26,
+    "hour_of_day": 12,
+    "import_kwh": 1.667,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.667,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 613.0,
+    "day": 26,
+    "hour_of_day": 13,
+    "import_kwh": 1.639,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.639,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 614.0,
+    "day": 26,
+    "hour_of_day": 14,
+    "import_kwh": 5.502,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.502,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 615.0,
+    "day": 26,
+    "hour_of_day": 15,
+    "import_kwh": 1.79,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.79,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 616.0,
+    "day": 26,
+    "hour_of_day": 16,
+    "import_kwh": 1.827,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.827,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 617.0,
+    "day": 26,
+    "hour_of_day": 17,
+    "import_kwh": 4.824,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.824,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 618.0,
+    "day": 26,
+    "hour_of_day": 18,
+    "import_kwh": 10.245,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -10.245,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 619.0,
+    "day": 26,
+    "hour_of_day": 19,
+    "import_kwh": 9.656,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -9.656,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 620.0,
+    "day": 26,
+    "hour_of_day": 20,
+    "import_kwh": 20.905,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.905,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 621.0,
+    "day": 26,
+    "hour_of_day": 21,
+    "import_kwh": 19.833,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.833,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 622.0,
+    "day": 26,
+    "hour_of_day": 22,
+    "import_kwh": 3.47,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.47,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 623.0,
+    "day": 26,
+    "hour_of_day": 23,
+    "import_kwh": 3.424,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.424,
+    "cloud_coverage": 0.331
+  },
+  {
+    "hour": 624.0,
+    "day": 27,
+    "hour_of_day": 0,
+    "import_kwh": 5.535,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.535,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 625.0,
+    "day": 27,
+    "hour_of_day": 1,
+    "import_kwh": 0.399,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.399,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 626.0,
+    "day": 27,
+    "hour_of_day": 2,
+    "import_kwh": 1.377,
+    "export_kwh": 0.836,
+    "net_flow_kwh": -0.541,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 627.0,
+    "day": 27,
+    "hour_of_day": 3,
+    "import_kwh": 0.147,
+    "export_kwh": 1.814,
+    "net_flow_kwh": 1.667,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 628.0,
+    "day": 27,
+    "hour_of_day": 4,
+    "import_kwh": 0.09,
+    "export_kwh": 2.856,
+    "net_flow_kwh": 2.766,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 629.0,
+    "day": 27,
+    "hour_of_day": 5,
+    "import_kwh": 1.364,
+    "export_kwh": 6.741,
+    "net_flow_kwh": 5.377,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 630.0,
+    "day": 27,
+    "hour_of_day": 6,
+    "import_kwh": 0.146,
+    "export_kwh": 11.029,
+    "net_flow_kwh": 10.883,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 631.0,
+    "day": 27,
+    "hour_of_day": 7,
+    "import_kwh": 0.061,
+    "export_kwh": 16.561,
+    "net_flow_kwh": 16.5,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 632.0,
+    "day": 27,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 14.467,
+    "net_flow_kwh": 14.467,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 633.0,
+    "day": 27,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 10.795,
+    "net_flow_kwh": 10.795,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 634.0,
+    "day": 27,
+    "hour_of_day": 10,
+    "import_kwh": 0.114,
+    "export_kwh": 7.498,
+    "net_flow_kwh": 7.384,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 635.0,
+    "day": 27,
+    "hour_of_day": 11,
+    "import_kwh": 0.4,
+    "export_kwh": 2.256,
+    "net_flow_kwh": 1.856,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 636.0,
+    "day": 27,
+    "hour_of_day": 12,
+    "import_kwh": 1.56,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.56,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 637.0,
+    "day": 27,
+    "hour_of_day": 13,
+    "import_kwh": 1.701,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.701,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 638.0,
+    "day": 27,
+    "hour_of_day": 14,
+    "import_kwh": 1.782,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.782,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 639.0,
+    "day": 27,
+    "hour_of_day": 15,
+    "import_kwh": 1.529,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.529,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 640.0,
+    "day": 27,
+    "hour_of_day": 16,
+    "import_kwh": 1.64,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.64,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 641.0,
+    "day": 27,
+    "hour_of_day": 17,
+    "import_kwh": 5.14,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.14,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 642.0,
+    "day": 27,
+    "hour_of_day": 18,
+    "import_kwh": 4.072,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.072,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 643.0,
+    "day": 27,
+    "hour_of_day": 19,
+    "import_kwh": 12.3,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.3,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 644.0,
+    "day": 27,
+    "hour_of_day": 20,
+    "import_kwh": 18.51,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -18.51,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 645.0,
+    "day": 27,
+    "hour_of_day": 21,
+    "import_kwh": 12.923,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -12.923,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 646.0,
+    "day": 27,
+    "hour_of_day": 22,
+    "import_kwh": 3.371,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.371,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 647.0,
+    "day": 27,
+    "hour_of_day": 23,
+    "import_kwh": 5.948,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.948,
+    "cloud_coverage": 0.166
+  },
+  {
+    "hour": 648.0,
+    "day": 28,
+    "hour_of_day": 0,
+    "import_kwh": 4.383,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.383,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 649.0,
+    "day": 28,
+    "hour_of_day": 1,
+    "import_kwh": 0.593,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.593,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 650.0,
+    "day": 28,
+    "hour_of_day": 2,
+    "import_kwh": 0.624,
+    "export_kwh": 0.394,
+    "net_flow_kwh": -0.23,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 651.0,
+    "day": 28,
+    "hour_of_day": 3,
+    "import_kwh": 0.104,
+    "export_kwh": 1.157,
+    "net_flow_kwh": 1.053,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 652.0,
+    "day": 28,
+    "hour_of_day": 4,
+    "import_kwh": 0.277,
+    "export_kwh": 2.477,
+    "net_flow_kwh": 2.2,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 653.0,
+    "day": 28,
+    "hour_of_day": 5,
+    "import_kwh": 0.113,
+    "export_kwh": 4.699,
+    "net_flow_kwh": 4.586,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 654.0,
+    "day": 28,
+    "hour_of_day": 6,
+    "import_kwh": 0.081,
+    "export_kwh": 7.936,
+    "net_flow_kwh": 7.855,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 655.0,
+    "day": 28,
+    "hour_of_day": 7,
+    "import_kwh": 0.056,
+    "export_kwh": 10.563,
+    "net_flow_kwh": 10.507,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 656.0,
+    "day": 28,
+    "hour_of_day": 8,
+    "import_kwh": 0.0,
+    "export_kwh": 13.852,
+    "net_flow_kwh": 13.852,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 657.0,
+    "day": 28,
+    "hour_of_day": 9,
+    "import_kwh": 0.0,
+    "export_kwh": 9.432,
+    "net_flow_kwh": 9.432,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 658.0,
+    "day": 28,
+    "hour_of_day": 10,
+    "import_kwh": 1.672,
+    "export_kwh": 6.839,
+    "net_flow_kwh": 5.167,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 659.0,
+    "day": 28,
+    "hour_of_day": 11,
+    "import_kwh": 0.524,
+    "export_kwh": 2.363,
+    "net_flow_kwh": 1.839,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 660.0,
+    "day": 28,
+    "hour_of_day": 12,
+    "import_kwh": 1.702,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.702,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 661.0,
+    "day": 28,
+    "hour_of_day": 13,
+    "import_kwh": 1.568,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.568,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 662.0,
+    "day": 28,
+    "hour_of_day": 14,
+    "import_kwh": 1.661,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.661,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 663.0,
+    "day": 28,
+    "hour_of_day": 15,
+    "import_kwh": 5.748,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.748,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 664.0,
+    "day": 28,
+    "hour_of_day": 16,
+    "import_kwh": 1.963,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.963,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 665.0,
+    "day": 28,
+    "hour_of_day": 17,
+    "import_kwh": 2.462,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.462,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 666.0,
+    "day": 28,
+    "hour_of_day": 18,
+    "import_kwh": 21.865,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.865,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 667.0,
+    "day": 28,
+    "hour_of_day": 19,
+    "import_kwh": 13.396,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -13.396,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 668.0,
+    "day": 28,
+    "hour_of_day": 20,
+    "import_kwh": 11.958,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -11.958,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 669.0,
+    "day": 28,
+    "hour_of_day": 21,
+    "import_kwh": 16.563,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -16.563,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 670.0,
+    "day": 28,
+    "hour_of_day": 22,
+    "import_kwh": 3.563,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.563,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 671.0,
+    "day": 28,
+    "hour_of_day": 23,
+    "import_kwh": 5.56,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.56,
+    "cloud_coverage": 0.278
+  },
+  {
+    "hour": 672.0,
+    "day": 29,
+    "hour_of_day": 0,
+    "import_kwh": 3.411,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.411,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 673.0,
+    "day": 29,
+    "hour_of_day": 1,
+    "import_kwh": 2.574,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.574,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 674.0,
+    "day": 29,
+    "hour_of_day": 2,
+    "import_kwh": 1.674,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.674,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 675.0,
+    "day": 29,
+    "hour_of_day": 3,
+    "import_kwh": 1.47,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.47,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 676.0,
+    "day": 29,
+    "hour_of_day": 4,
+    "import_kwh": 3.065,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.065,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 677.0,
+    "day": 29,
+    "hour_of_day": 5,
+    "import_kwh": 1.03,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.03,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 678.0,
+    "day": 29,
+    "hour_of_day": 6,
+    "import_kwh": 5.047,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.047,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 679.0,
+    "day": 29,
+    "hour_of_day": 7,
+    "import_kwh": 1.764,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.764,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 680.0,
+    "day": 29,
+    "hour_of_day": 8,
+    "import_kwh": 4.222,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.222,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 681.0,
+    "day": 29,
+    "hour_of_day": 9,
+    "import_kwh": 1.267,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.267,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 682.0,
+    "day": 29,
+    "hour_of_day": 10,
+    "import_kwh": 1.366,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.366,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 683.0,
+    "day": 29,
+    "hour_of_day": 11,
+    "import_kwh": 2.246,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.246,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 684.0,
+    "day": 29,
+    "hour_of_day": 12,
+    "import_kwh": 4.884,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.884,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 685.0,
+    "day": 29,
+    "hour_of_day": 13,
+    "import_kwh": 6.181,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.181,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 686.0,
+    "day": 29,
+    "hour_of_day": 14,
+    "import_kwh": 3.434,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.434,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 687.0,
+    "day": 29,
+    "hour_of_day": 15,
+    "import_kwh": 3.788,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.788,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 688.0,
+    "day": 29,
+    "hour_of_day": 16,
+    "import_kwh": 3.344,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.344,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 689.0,
+    "day": 29,
+    "hour_of_day": 17,
+    "import_kwh": 3.284,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.284,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 690.0,
+    "day": 29,
+    "hour_of_day": 18,
+    "import_kwh": 21.321,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -21.321,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 691.0,
+    "day": 29,
+    "hour_of_day": 19,
+    "import_kwh": 18.099,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -18.099,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 692.0,
+    "day": 29,
+    "hour_of_day": 20,
+    "import_kwh": 15.617,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -15.617,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 693.0,
+    "day": 29,
+    "hour_of_day": 21,
+    "import_kwh": 29.508,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -29.508,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 694.0,
+    "day": 29,
+    "hour_of_day": 22,
+    "import_kwh": 6.053,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.053,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 695.0,
+    "day": 29,
+    "hour_of_day": 23,
+    "import_kwh": 4.816,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.816,
+    "cloud_coverage": 0.821
+  },
+  {
+    "hour": 696.0,
+    "day": 30,
+    "hour_of_day": 0,
+    "import_kwh": 3.712,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.712,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 697.0,
+    "day": 30,
+    "hour_of_day": 1,
+    "import_kwh": 5.99,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.99,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 698.0,
+    "day": 30,
+    "hour_of_day": 2,
+    "import_kwh": 6.828,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -6.828,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 699.0,
+    "day": 30,
+    "hour_of_day": 3,
+    "import_kwh": 0.844,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.844,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 700.0,
+    "day": 30,
+    "hour_of_day": 4,
+    "import_kwh": 0.433,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.433,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 701.0,
+    "day": 30,
+    "hour_of_day": 5,
+    "import_kwh": 4.014,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.014,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 702.0,
+    "day": 30,
+    "hour_of_day": 6,
+    "import_kwh": 0.791,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.791,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 703.0,
+    "day": 30,
+    "hour_of_day": 7,
+    "import_kwh": 0.566,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.566,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 704.0,
+    "day": 30,
+    "hour_of_day": 8,
+    "import_kwh": 0.518,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -0.518,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 705.0,
+    "day": 30,
+    "hour_of_day": 9,
+    "import_kwh": 1.294,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.294,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 706.0,
+    "day": 30,
+    "hour_of_day": 10,
+    "import_kwh": 1.006,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -1.006,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 707.0,
+    "day": 30,
+    "hour_of_day": 11,
+    "import_kwh": 4.814,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.814,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 708.0,
+    "day": 30,
+    "hour_of_day": 12,
+    "import_kwh": 2.625,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.625,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 709.0,
+    "day": 30,
+    "hour_of_day": 13,
+    "import_kwh": 2.52,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -2.52,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 710.0,
+    "day": 30,
+    "hour_of_day": 14,
+    "import_kwh": 3.632,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.632,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 711.0,
+    "day": 30,
+    "hour_of_day": 15,
+    "import_kwh": 4.171,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -4.171,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 712.0,
+    "day": 30,
+    "hour_of_day": 16,
+    "import_kwh": 3.803,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.803,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 713.0,
+    "day": 30,
+    "hour_of_day": 17,
+    "import_kwh": 3.61,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.61,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 714.0,
+    "day": 30,
+    "hour_of_day": 18,
+    "import_kwh": 19.217,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.217,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 715.0,
+    "day": 30,
+    "hour_of_day": 19,
+    "import_kwh": 19.427,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -19.427,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 716.0,
+    "day": 30,
+    "hour_of_day": 20,
+    "import_kwh": 24.608,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -24.608,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 717.0,
+    "day": 30,
+    "hour_of_day": 21,
+    "import_kwh": 20.872,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -20.872,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 718.0,
+    "day": 30,
+    "hour_of_day": 22,
+    "import_kwh": 3.733,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -3.733,
+    "cloud_coverage": 0.754
+  },
+  {
+    "hour": 719.0,
+    "day": 30,
+    "hour_of_day": 23,
+    "import_kwh": 5.486,
+    "export_kwh": 0.0,
+    "net_flow_kwh": -5.486,
+    "cloud_coverage": 0.754
+  }
+]

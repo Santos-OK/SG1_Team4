@@ -1,0 +1,146 @@
+[
+  {
+    "hour": 0,
+    "avg_load_kw": 5.705,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.705
+  },
+  {
+    "hour": 1,
+    "avg_load_kw": 5.211,
+    "avg_solar_kw": 3.613,
+    "avg_net_kw": 1.597
+  },
+  {
+    "hour": 2,
+    "avg_load_kw": 5.386,
+    "avg_solar_kw": 6.98,
+    "avg_net_kw": -1.594
+  },
+  {
+    "hour": 3,
+    "avg_load_kw": 5.354,
+    "avg_solar_kw": 9.872,
+    "avg_net_kw": -4.518
+  },
+  {
+    "hour": 4,
+    "avg_load_kw": 5.7,
+    "avg_solar_kw": 12.01,
+    "avg_net_kw": -6.31
+  },
+  {
+    "hour": 5,
+    "avg_load_kw": 5.29,
+    "avg_solar_kw": 13.128,
+    "avg_net_kw": -7.838
+  },
+  {
+    "hour": 6,
+    "avg_load_kw": 5.725,
+    "avg_solar_kw": 13.478,
+    "avg_net_kw": -7.753
+  },
+  {
+    "hour": 7,
+    "avg_load_kw": 5.467,
+    "avg_solar_kw": 13.128,
+    "avg_net_kw": -7.661
+  },
+  {
+    "hour": 8,
+    "avg_load_kw": 5.79,
+    "avg_solar_kw": 12.01,
+    "avg_net_kw": -6.22
+  },
+  {
+    "hour": 9,
+    "avg_load_kw": 5.481,
+    "avg_solar_kw": 9.872,
+    "avg_net_kw": -4.39
+  },
+  {
+    "hour": 10,
+    "avg_load_kw": 5.535,
+    "avg_solar_kw": 6.98,
+    "avg_net_kw": -1.445
+  },
+  {
+    "hour": 11,
+    "avg_load_kw": 5.436,
+    "avg_solar_kw": 3.613,
+    "avg_net_kw": 1.822
+  },
+  {
+    "hour": 12,
+    "avg_load_kw": 5.658,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.658
+  },
+  {
+    "hour": 13,
+    "avg_load_kw": 5.092,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.092
+  },
+  {
+    "hour": 14,
+    "avg_load_kw": 5.587,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.587
+  },
+  {
+    "hour": 15,
+    "avg_load_kw": 5.709,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.709
+  },
+  {
+    "hour": 16,
+    "avg_load_kw": 5.46,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.46
+  },
+  {
+    "hour": 17,
+    "avg_load_kw": 5.249,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.249
+  },
+  {
+    "hour": 18,
+    "avg_load_kw": 22.885,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 22.885
+  },
+  {
+    "hour": 19,
+    "avg_load_kw": 21.076,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 21.076
+  },
+  {
+    "hour": 20,
+    "avg_load_kw": 21.25,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 21.25
+  },
+  {
+    "hour": 21,
+    "avg_load_kw": 20.345,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 20.345
+  },
+  {
+    "hour": 22,
+    "avg_load_kw": 5.369,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.369
+  },
+  {
+    "hour": 23,
+    "avg_load_kw": 5.556,
+    "avg_solar_kw": 0.0,
+    "avg_net_kw": 5.556
+  }
+]
