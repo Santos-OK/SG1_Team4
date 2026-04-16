@@ -214,3 +214,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data generated automatically by the simulator
+data/
+
+# CSV files from phase 1
+*.csv
