@@ -7,8 +7,8 @@ class SolarPanel:
         self.total_generated = 0.0
         self.total_clipped   = 0.0
 
-    def generate(self, hour_of_day: int, cloud_coverage: float, 
-                 inverter_operational: bool, inverter_max_kw: float) -> float:
+    def generate(self, hour_of_day: int, cloud_coverage: float,
+             inverter_operational: bool, inverter_max_kw: float) -> float:
         """
         Generates energy depending on the hour of day and cloud coverage, 
         generates 0 energy when the inverter is not working 
