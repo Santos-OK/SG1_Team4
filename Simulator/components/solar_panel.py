@@ -2,10 +2,10 @@ import math
 
 
 class SolarPanel:
-    def __init__(self, peak_power: float):
-        self.peak_power = peak_power
+    def __init__(self, cfg: dict):
+        self.peak_power = cfg["peak_power_kw"]
         self.total_generated = 0.0
-        self.total_clipped = 0.0
+        self.total_clipped   = 0.0
 
     def generate(self, hour_of_day: int, cloud_coverage: float, 
                  inverter_operational: bool, inverter_max_kw: float) -> float:
