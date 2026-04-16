@@ -1,146 +1,146 @@
 [
   {
     "hour": 0,
-    "avg_load_kw": 5.269,
+    "avg_load_kw": 5.553,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.269
+    "avg_net_kw": 5.553
   },
   {
     "hour": 1,
-    "avg_load_kw": 5.318,
-    "avg_solar_kw": 2.74,
-    "avg_net_kw": 2.578
+    "avg_load_kw": 4.811,
+    "avg_solar_kw": 3.793,
+    "avg_net_kw": 1.018
   },
   {
     "hour": 2,
-    "avg_load_kw": 5.253,
-    "avg_solar_kw": 5.293,
-    "avg_net_kw": -0.04
+    "avg_load_kw": 4.984,
+    "avg_solar_kw": 7.328,
+    "avg_net_kw": -2.344
   },
   {
     "hour": 3,
-    "avg_load_kw": 5.647,
-    "avg_solar_kw": 7.486,
-    "avg_net_kw": -1.839
+    "avg_load_kw": 5.821,
+    "avg_solar_kw": 10.363,
+    "avg_net_kw": -4.542
   },
   {
     "hour": 4,
-    "avg_load_kw": 5.596,
-    "avg_solar_kw": 9.168,
-    "avg_net_kw": -3.572
+    "avg_load_kw": 5.705,
+    "avg_solar_kw": 12.641,
+    "avg_net_kw": -6.937
   },
   {
     "hour": 5,
-    "avg_load_kw": 5.343,
-    "avg_solar_kw": 10.22,
-    "avg_net_kw": -4.877
+    "avg_load_kw": 5.707,
+    "avg_solar_kw": 13.884,
+    "avg_net_kw": -8.177
   },
   {
     "hour": 6,
-    "avg_load_kw": 5.223,
-    "avg_solar_kw": 10.552,
-    "avg_net_kw": -5.329
+    "avg_load_kw": 5.037,
+    "avg_solar_kw": 14.273,
+    "avg_net_kw": -9.236
   },
   {
     "hour": 7,
-    "avg_load_kw": 5.826,
-    "avg_solar_kw": 10.22,
-    "avg_net_kw": -4.394
+    "avg_load_kw": 5.412,
+    "avg_solar_kw": 13.884,
+    "avg_net_kw": -8.472
   },
   {
     "hour": 8,
-    "avg_load_kw": 5.302,
-    "avg_solar_kw": 9.243,
-    "avg_net_kw": -3.941
+    "avg_load_kw": 5.321,
+    "avg_solar_kw": 12.641,
+    "avg_net_kw": -7.32
   },
   {
     "hour": 9,
-    "avg_load_kw": 5.629,
-    "avg_solar_kw": 7.548,
-    "avg_net_kw": -1.918
+    "avg_load_kw": 5.332,
+    "avg_solar_kw": 10.363,
+    "avg_net_kw": -5.031
   },
   {
     "hour": 10,
-    "avg_load_kw": 6.028,
-    "avg_solar_kw": 5.407,
-    "avg_net_kw": 0.621
+    "avg_load_kw": 5.784,
+    "avg_solar_kw": 7.328,
+    "avg_net_kw": -1.544
   },
   {
     "hour": 11,
-    "avg_load_kw": 6.091,
-    "avg_solar_kw": 2.799,
-    "avg_net_kw": 3.292
+    "avg_load_kw": 5.819,
+    "avg_solar_kw": 3.793,
+    "avg_net_kw": 2.025
   },
   {
     "hour": 12,
-    "avg_load_kw": 5.497,
+    "avg_load_kw": 5.986,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.497
+    "avg_net_kw": 5.986
   },
   {
     "hour": 13,
-    "avg_load_kw": 5.569,
+    "avg_load_kw": 5.617,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.569
+    "avg_net_kw": 5.617
   },
   {
     "hour": 14,
-    "avg_load_kw": 5.639,
+    "avg_load_kw": 6.174,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.639
+    "avg_net_kw": 6.174
   },
   {
     "hour": 15,
-    "avg_load_kw": 5.409,
+    "avg_load_kw": 5.493,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.409
+    "avg_net_kw": 5.493
   },
   {
     "hour": 16,
-    "avg_load_kw": 5.954,
+    "avg_load_kw": 5.266,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.954
+    "avg_net_kw": 5.266
   },
   {
     "hour": 17,
-    "avg_load_kw": 5.269,
+    "avg_load_kw": 5.466,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.269
+    "avg_net_kw": 5.466
   },
   {
     "hour": 18,
-    "avg_load_kw": 21.709,
+    "avg_load_kw": 21.633,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 21.709
+    "avg_net_kw": 21.633
   },
   {
     "hour": 19,
-    "avg_load_kw": 21.99,
+    "avg_load_kw": 21.387,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 21.99
+    "avg_net_kw": 21.387
   },
   {
     "hour": 20,
-    "avg_load_kw": 20.99,
+    "avg_load_kw": 20.812,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 20.99
+    "avg_net_kw": 20.812
   },
   {
     "hour": 21,
-    "avg_load_kw": 21.251,
+    "avg_load_kw": 21.21,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 21.251
+    "avg_net_kw": 21.21
   },
   {
     "hour": 22,
-    "avg_load_kw": 5.641,
+    "avg_load_kw": 4.981,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.641
+    "avg_net_kw": 4.981
   },
   {
     "hour": 23,
-    "avg_load_kw": 5.984,
+    "avg_load_kw": 5.86,
     "avg_solar_kw": 0.0,
-    "avg_net_kw": 5.984
+    "avg_net_kw": 5.86
   }
 ]

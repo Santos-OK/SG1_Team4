@@ -1,29 +1,29 @@
 [
   {
     "household_type": "large_family",
-    "total_solar_kwh": 834.82,
-    "total_load_kwh": 3450.45,
-    "total_import_kwh": 2741.43,
-    "total_export_kwh": 94.85,
-    "avg_load_kw": 2.396,
-    "self_sufficiency_pct": 21.4
+    "total_solar_kwh": 1118.41,
+    "total_load_kwh": 3376.75,
+    "total_import_kwh": 2501.31,
+    "total_export_kwh": 205.58,
+    "avg_load_kw": 2.345,
+    "self_sufficiency_pct": 27.0
   },
   {
     "household_type": "small_family",
-    "total_solar_kwh": 786.02,
-    "total_load_kwh": 1725.91,
-    "total_import_kwh": 1060.77,
-    "total_export_kwh": 70.68,
-    "avg_load_kw": 1.199,
-    "self_sufficiency_pct": 41.4
+    "total_solar_kwh": 1118.41,
+    "total_load_kwh": 1706.51,
+    "total_import_kwh": 851.6,
+    "total_export_kwh": 200.0,
+    "avg_load_kw": 1.185,
+    "self_sufficiency_pct": 53.8
   },
   {
     "household_type": "studio",
-    "total_solar_kwh": 799.4,
-    "total_load_kwh": 746.48,
-    "total_import_kwh": 180.6,
-    "total_export_kwh": 182.82,
-    "avg_load_kw": 0.518,
-    "self_sufficiency_pct": 82.6
+    "total_solar_kwh": 1071.97,
+    "total_load_kwh": 771.89,
+    "total_import_kwh": 139.56,
+    "total_export_kwh": 394.61,
+    "avg_load_kw": 0.536,
+    "self_sufficiency_pct": 87.8
   }
 ]
