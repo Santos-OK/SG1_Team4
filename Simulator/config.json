@@ -1,0 +1,146 @@
+{
+  "_comment": "GreenGrid Simulator - Main Configuration File",
+
+  "battery": {
+    "count": 1,
+    "capacity_kwh": 13.5,
+    "min_soc_percent": 5,
+    "max_soc_percent": 100,
+    "efficiency": 0.9,
+    "initial_soc_percent": 50
+  },
+
+  "solar": {
+    "peak_power_kw": 5.0
+  },
+
+  "inverter": {
+    "max_output_kw": 4.0,
+    "failure_rate_per_day": 0.005,
+    "min_failure_hours": 4,
+    "max_failure_hours": 72
+  },
+
+  "grid": {
+    "export_limit_kw": 20.0,
+    "import_cost_per_kwh": 0.75,
+    "export_revenue_per_kwh": 0.90
+  },
+
+  "simulation": {
+    "days": 30,
+    "time_step_minutes": 60,
+    "season": "spring",
+    "energy_management_strategy": "CHARGE_PRIORITY",
+    "verbose": false
+  },
+
+  "cloud_coverage": {
+    "probabilities": {
+      "spring": [0.1, 0.3, 0.4, 0.2],
+      "summer": [0.05, 0.15, 0.3, 0.5],
+      "fall":   [0.2, 0.4, 0.3, 0.1],
+      "winter": [0.3, 0.4, 0.2, 0.1]
+    },
+    "ranges": {
+      "clear":         [0.0, 0.2],
+      "partly_cloudy": [0.2, 0.6],
+      "mostly_cloudy": [0.6, 0.8],
+      "overcast":      [0.8, 0.9]
+    }
+  },
+
+  "households": [
+    {
+      "id": "studio_low",
+      "type": "studio",
+      "wealth": "low",
+      "persons": 1,
+      "base_load_kw": 0.2,
+      "peak_spike_kw": 2.5,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": true
+    },
+    {
+      "id": "studio_middle",
+      "type": "studio",
+      "wealth": "middle",
+      "persons": 1,
+      "base_load_kw": 0.2,
+      "peak_spike_kw": 2.5,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": true
+    },
+    {
+      "id": "small_family_middle",
+      "type": "small_family",
+      "wealth": "middle",
+      "persons": 3,
+      "base_load_kw": 0.4,
+      "peak_spike_kw": 4.5,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": true
+    },
+    {
+      "id": "small_family_high",
+      "type": "small_family",
+      "wealth": "high",
+      "persons": 2,
+      "base_load_kw": 0.4,
+      "peak_spike_kw": 4.5,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": true
+    },
+    {
+      "id": "large_family_middle",
+      "type": "large_family",
+      "wealth": "middle",
+      "persons": 4,
+      "base_load_kw": 0.8,
+      "peak_spike_kw": 7.0,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": true
+    },
+    {
+      "id": "large_family_luxury",
+      "type": "large_family",
+      "wealth": "luxury",
+      "persons": 5,
+      "base_load_kw": 0.8,
+      "peak_spike_kw": 7.0,
+      "peak_hours_start": 18,
+      "peak_hours_end": 21,
+      "load_variability": 0.3,
+      "has_solar": true,
+      "has_battery": false
+    }
+  ],
+
+  "wealth_multipliers": {
+    "low":    0.8,
+    "middle": 1.0,
+    "high":   1.2,
+    "luxury": 1.5
+  },
+
+  "output": {
+    "directory": "data",
+    "neighborhood_file": "neighborhood_results.json",
+    "summary_file": "simulation_summary.json"
+  }
+}
